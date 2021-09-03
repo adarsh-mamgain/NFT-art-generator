@@ -1,10 +1,16 @@
 from PIL import Image
-from layers import layers
+from layers import *
 import random, datetime, json
 
 
 # todo Add rarity ratio like common:rare:super_rare (20:15:5)
 dnaList = []
+
+def getRarity(editionCount):
+  for rarityWeight in rarityWeightList:
+    if rarityWeight["from"] <= editionCount <= rarityWeight["to"]:
+      rarity = rarityWeight["value"]
+  return rarity
 
 def isDnaUnique(dnaId):
   dna = ''.join(map(str,dnaId))
@@ -13,21 +19,21 @@ def isDnaUnique(dnaId):
   dnaList.append(dna)
   return True
 
-def createDna(layers):
+def createDna(layers, rarity):
   randomDna = []
   for i in layers:
-    randomDna.append(int(random.uniform(0, len(layers[i]["elements"]))))
+    randomDna.append(int(random.uniform(0, len(layers[i]["elements"][rarity]))))
   return randomDna
 
-def createImage(imagesPath, counter):
+def createImage(imagesPath, editionCount):
   for path in imagesPath:
     try:
-      background = Image.open(f'./output/{counter}.png')
+      background = Image.open(f'./output/{editionCount}.png')
       foreground = Image.open(path)
-      Image.alpha_composite(background.convert('RGBA'), foreground.convert('RGBA')).save(f'./output/{counter}.png')
+      Image.alpha_composite(background.convert('RGBA'), foreground.convert('RGBA')).save(f'./output/{editionCount}.png')
     except:
-      background = Image.open(path).convert('RGBA').save(f'./output/{counter}.png')
-  print("Built: ", counter)
+      background = Image.open(path).convert('RGBA').save(f'./output/{editionCount}.png')
+  print("Built: ", editionCount)
 
 def clearMetadata():
   data = []
@@ -36,11 +42,14 @@ def clearMetadata():
     file.seek(0)
     json.dump(data, file, indent = 2)
 
-def saveMetadata(counter, dna, images):
+def saveMetadata(editionCount, dna, images):
   data = {
-    "edition": counter,
+    "name": f"#{editionCount}",
+    "edition": editionCount,
     "dna": dna,
     "date": str(datetime.datetime.utcnow()),
+    "description": description,
+    "image": f"{baseImageUri}/get/nft/#{editionCount}",
     "attributes": []
   }
   for i in images:
@@ -54,26 +63,27 @@ def saveMetadata(counter, dna, images):
   return data
 
 def main():
-  counter = 1
-  edition = input("Edition: ")
+  editionCount = 1
+  print("Edition size: ", endEditionAt)
   print("Creating your NFTs ...")
   clearMetadata()
-  while(counter <= int(edition)):
-    dnaId = createDna(layers)
+  while(editionCount <= int(endEditionAt)):
+    rarity = getRarity(editionCount)
+    dnaId = createDna(layers, rarity)
     dna = ''.join(map(str,dnaId))
     if isDnaUnique(dnaId):
       images = {}
       imagesPath = []
       for selectedElement,selectedLayer in zip(dnaId, layers):
-        metadata = {"name": layers[selectedLayer]["elements"][selectedElement]["name"], "rarity": layers[selectedLayer]["elements"][selectedElement]["rarity"]}
+        metadata = {"name": layers[selectedLayer]["elements"][rarity][selectedElement]["name"], "rarity": rarity}
         images[selectedLayer] = metadata
-        location = layers[selectedLayer]["elements"][selectedElement]["location"]
+        location = layers[selectedLayer]["elements"][rarity][selectedElement]["location"]
         imagesPath.append(location)
 
       try:
-        saveMetadata(counter, dna, images)
-        createImage(imagesPath, counter)
-        counter+=1 
+        saveMetadata(editionCount, dna, images)
+        createImage(imagesPath, editionCount)
+        editionCount+=1 
       except:
         raise NotImplementedError("SaveMetadata or CreateImage is not working :(")
     else:
