@@ -2,87 +2,567 @@
   {
     "name": "#1",
     "edition": 1,
-    "dna": "10110",
-    "date": "2021-09-01 20:00:50.801686",
+    "dna": "0410213041",
+    "date": "2021-09-10 19:52:41.641374",
     "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
     "image": "http://localhost/get/nft/#1",
     "attributes": [
-      { "backgrond": { "name": "blue", "rarity": "super_rare" } },
+      { "background": { "name": "Magerita", "rarity": "super_rare" } },
       { "armour": { "name": "yellow", "rarity": "super_rare" } },
-      { "pattern": { "name": "red", "rarity": "super_rare" } },
-      { "helmet": { "name": "green", "rarity": "super_rare" } },
-      { "cheek": { "name": "orange", "rarity": "super_rare" } }
+      { "pattern": { "name": "blue", "rarity": "rare" } },
+      { "helmet": { "name": "green cryola", "rarity": "original" } },
+      { "cheek": { "name": "grey", "rarity": "original" } }
     ]
   },
   {
     "name": "#2",
     "edition": 2,
-    "dna": "11110",
-    "date": "2021-09-01 20:00:51.285501",
+    "dna": "0011213041",
+    "date": "2021-09-10 19:52:42.017923",
     "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
     "image": "http://localhost/get/nft/#2",
     "attributes": [
-      { "backgrond": { "name": "turquoise", "rarity": "rare" } },
-      { "armour": { "name": "teal blue", "rarity": "rare" } },
-      { "pattern": { "name": "blue", "rarity": "rare" } },
-      { "helmet": { "name": "blue", "rarity": "rare" } },
-      { "cheek": { "name": "brass", "rarity": "rare" } }
+      { "background": { "name": "Olive", "rarity": "original" } },
+      { "armour": { "name": "cyan blue", "rarity": "original" } },
+      { "pattern": { "name": "white", "rarity": "original" } },
+      { "helmet": { "name": "green cryola", "rarity": "original" } },
+      { "cheek": { "name": "grey", "rarity": "original" } }
     ]
   },
   {
     "name": "#3",
     "edition": 3,
-    "dna": "10010",
-    "date": "2021-09-01 20:00:51.637261",
+    "dna": "0310203041",
+    "date": "2021-09-10 19:52:42.351175",
     "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
     "image": "http://localhost/get/nft/#3",
     "attributes": [
-      { "backgrond": { "name": "turquoise", "rarity": "rare" } },
-      { "armour": { "name": "dark blue", "rarity": "rare" } },
-      { "pattern": { "name": "brown", "rarity": "rare" } },
-      { "helmet": { "name": "blue", "rarity": "rare" } },
-      { "cheek": { "name": "brass", "rarity": "rare" } }
+      { "background": { "name": "Blue", "rarity": "rare" } },
+      { "armour": { "name": "yellow", "rarity": "super_rare" } },
+      { "pattern": { "name": "orange", "rarity": "super_rare" } },
+      { "helmet": { "name": "yellow", "rarity": "rare" } },
+      { "cheek": { "name": "blue", "rarity": "super_rare" } }
     ]
   },
   {
     "name": "#4",
     "edition": 4,
-    "dna": "11001",
-    "date": "2021-09-01 20:00:51.982762",
+    "dna": "0211203041",
+    "date": "2021-09-10 19:52:42.683877",
     "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
     "image": "http://localhost/get/nft/#4",
     "attributes": [
-      { "backgrond": { "name": "turquoise", "rarity": "rare" } },
-      { "armour": { "name": "teal blue", "rarity": "rare" } },
-      { "pattern": { "name": "brown", "rarity": "rare" } },
-      { "helmet": { "name": "yellow", "rarity": "rare" } },
-      { "cheek": { "name": "yellow", "rarity": "rare" } }
+      { "background": { "name": "Yellow", "rarity": "original" } },
+      { "armour": { "name": "cyan blue", "rarity": "original" } },
+      { "pattern": { "name": "black", "rarity": "original" } },
+      { "helmet": { "name": "green cryola", "rarity": "original" } },
+      { "cheek": { "name": "grey", "rarity": "original" } }
     ]
   },
   {
     "name": "#5",
     "edition": 5,
-    "dna": "00100",
-    "date": "2021-09-01 20:00:52.325333",
+    "dna": "0310213140",
+    "date": "2021-09-10 19:52:43.015648",
     "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
     "image": "http://localhost/get/nft/#5",
     "attributes": [
-      { "backgrond": { "name": "black", "rarity": "original" } },
+      { "background": { "name": "Turquoise", "rarity": "super_rare" } },
       { "armour": { "name": "brown", "rarity": "original" } },
-      { "pattern": { "name": "white", "rarity": "original" } },
-      { "helmet": { "name": "green cryola", "rarity": "original" } },
+      { "pattern": { "name": "red", "rarity": "super_rare" } },
+      { "helmet": { "name": "blue", "rarity": "rare" } },
       { "cheek": { "name": "brown", "rarity": "original" } }
     ]
   },
   {
     "name": "#6",
     "edition": 6,
-    "dna": "00000",
-    "date": "2021-09-01 20:00:52.645968",
+    "dna": "0210213040",
+    "date": "2021-09-10 19:52:43.350134",
     "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
     "image": "http://localhost/get/nft/#6",
     "attributes": [
-      { "backgrond": { "name": "black", "rarity": "original" } },
+      { "background": { "name": "Red", "rarity": "rare" } },
+      { "armour": { "name": "brown", "rarity": "original" } },
+      { "pattern": { "name": "white", "rarity": "original" } },
+      { "helmet": { "name": "pink", "rarity": "super_rare" } },
+      { "cheek": { "name": "brass", "rarity": "rare" } }
+    ]
+  },
+  {
+    "name": "#7",
+    "edition": 7,
+    "dna": "0610203041",
+    "date": "2021-09-10 19:52:43.687613",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#7",
+    "attributes": [
+      { "background": { "name": "Bazaar", "rarity": "original" } },
+      { "armour": { "name": "dark blue", "rarity": "rare" } },
+      { "pattern": { "name": "black", "rarity": "original" } },
+      { "helmet": { "name": "green cryola", "rarity": "original" } },
+      { "cheek": { "name": "yellow", "rarity": "rare" } }
+    ]
+  },
+  {
+    "name": "#8",
+    "edition": 8,
+    "dna": "0211203140",
+    "date": "2021-09-10 19:52:44.028088",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#8",
+    "attributes": [
+      { "background": { "name": "Yellow", "rarity": "original" } },
+      { "armour": { "name": "cyan blue", "rarity": "original" } },
+      { "pattern": { "name": "black", "rarity": "original" } },
+      { "helmet": { "name": "blue", "rarity": "rare" } },
+      { "cheek": { "name": "brown", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#9",
+    "edition": 9,
+    "dna": "0110213140",
+    "date": "2021-09-10 19:52:44.367266",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#9",
+    "attributes": [
+      { "background": { "name": "Green", "rarity": "super_rare" } },
+      { "armour": { "name": "dark blue", "rarity": "rare" } },
+      { "pattern": { "name": "red", "rarity": "super_rare" } },
+      { "helmet": { "name": "green", "rarity": "super_rare" } },
+      { "cheek": { "name": "orange", "rarity": "super_rare" } }
+    ]
+  },
+  {
+    "name": "#10",
+    "edition": 10,
+    "dna": "0011203041",
+    "date": "2021-09-10 19:52:44.709069",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#10",
+    "attributes": [
+      { "background": { "name": "Pink", "rarity": "super_rare" } },
+      { "armour": { "name": "purple", "rarity": "super_rare" } },
+      { "pattern": { "name": "black", "rarity": "original" } },
+      { "helmet": { "name": "pink", "rarity": "super_rare" } },
+      { "cheek": { "name": "blue", "rarity": "super_rare" } }
+    ]
+  },
+  {
+    "name": "#11",
+    "edition": 11,
+    "dna": "0511203141",
+    "date": "2021-09-10 19:52:45.046035",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#11",
+    "attributes": [
+      { "background": { "name": "white", "rarity": "original" } },
+      { "armour": { "name": "cyan blue", "rarity": "original" } },
+      { "pattern": { "name": "brown", "rarity": "rare" } },
+      { "helmet": { "name": "sky blue", "rarity": "original" } },
+      { "cheek": { "name": "yellow", "rarity": "rare" } }
+    ]
+  },
+  {
+    "name": "#12",
+    "edition": 12,
+    "dna": "0210213141",
+    "date": "2021-09-10 19:52:45.372240",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#12",
+    "attributes": [
+      { "background": { "name": "Red", "rarity": "rare" } },
+      { "armour": { "name": "dark blue", "rarity": "rare" } },
+      { "pattern": { "name": "white", "rarity": "original" } },
+      { "helmet": { "name": "sky blue", "rarity": "original" } },
+      { "cheek": { "name": "grey", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#13",
+    "edition": 13,
+    "dna": "0011203040",
+    "date": "2021-09-10 19:52:45.712533",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#13",
+    "attributes": [
+      { "background": { "name": "Olive", "rarity": "original" } },
+      { "armour": { "name": "cyan blue", "rarity": "original" } },
+      { "pattern": { "name": "black", "rarity": "original" } },
+      { "helmet": { "name": "green cryola", "rarity": "original" } },
+      { "cheek": { "name": "brown", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#14",
+    "edition": 14,
+    "dna": "0310213141",
+    "date": "2021-09-10 19:52:46.050428",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#14",
+    "attributes": [
+      { "background": { "name": "Turquoise", "rarity": "super_rare" } },
+      { "armour": { "name": "dark blue", "rarity": "rare" } },
+      { "pattern": { "name": "white", "rarity": "original" } },
+      { "helmet": { "name": "green", "rarity": "super_rare" } },
+      { "cheek": { "name": "grey", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#15",
+    "edition": 15,
+    "dna": "0611203140",
+    "date": "2021-09-10 19:52:46.391102",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#15",
+    "attributes": [
+      { "background": { "name": "Bazaar", "rarity": "original" } },
+      { "armour": { "name": "purple", "rarity": "super_rare" } },
+      { "pattern": { "name": "orange", "rarity": "super_rare" } },
+      { "helmet": { "name": "green", "rarity": "super_rare" } },
+      { "cheek": { "name": "orange", "rarity": "super_rare" } }
+    ]
+  },
+  {
+    "name": "#16",
+    "edition": 16,
+    "dna": "0311213141",
+    "date": "2021-09-10 19:52:46.729358",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#16",
+    "attributes": [
+      { "background": { "name": "Turquoise", "rarity": "super_rare" } },
+      { "armour": { "name": "teal blue", "rarity": "rare" } },
+      { "pattern": { "name": "white", "rarity": "original" } },
+      { "helmet": { "name": "blue", "rarity": "rare" } },
+      { "cheek": { "name": "blue", "rarity": "super_rare" } }
+    ]
+  },
+  {
+    "name": "#17",
+    "edition": 17,
+    "dna": "0410213040",
+    "date": "2021-09-10 19:52:47.068996",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#17",
+    "attributes": [
+      { "background": { "name": "Brown", "rarity": "rare" } },
+      { "armour": { "name": "yellow", "rarity": "super_rare" } },
+      { "pattern": { "name": "red", "rarity": "super_rare" } },
+      { "helmet": { "name": "green cryola", "rarity": "original" } },
+      { "cheek": { "name": "orange", "rarity": "super_rare" } }
+    ]
+  },
+  {
+    "name": "#18",
+    "edition": 18,
+    "dna": "0311213041",
+    "date": "2021-09-10 19:52:47.404637",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#18",
+    "attributes": [
+      { "background": { "name": "Grey", "rarity": "original" } },
+      { "armour": { "name": "cyan blue", "rarity": "original" } },
+      { "pattern": { "name": "white", "rarity": "original" } },
+      { "helmet": { "name": "green cryola", "rarity": "original" } },
+      { "cheek": { "name": "grey", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#19",
+    "edition": 19,
+    "dna": "0010203140",
+    "date": "2021-09-10 19:52:47.743827",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#19",
+    "attributes": [
+      { "background": { "name": "Pink", "rarity": "super_rare" } },
+      { "armour": { "name": "yellow", "rarity": "super_rare" } },
+      { "pattern": { "name": "black", "rarity": "original" } },
+      { "helmet": { "name": "sky blue", "rarity": "original" } },
+      { "cheek": { "name": "orange", "rarity": "super_rare" } }
+    ]
+  },
+  {
+    "name": "#20",
+    "edition": 20,
+    "dna": "0110203140",
+    "date": "2021-09-10 19:52:48.081935",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#20",
+    "attributes": [
+      { "background": { "name": "Green", "rarity": "super_rare" } },
+      { "armour": { "name": "dark blue", "rarity": "rare" } },
+      { "pattern": { "name": "brown", "rarity": "rare" } },
+      { "helmet": { "name": "green", "rarity": "super_rare" } },
+      { "cheek": { "name": "brass", "rarity": "rare" } }
+    ]
+  },
+  {
+    "name": "#21",
+    "edition": 21,
+    "dna": "0610213141",
+    "date": "2021-09-10 19:52:48.421895",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#21",
+    "attributes": [
+      { "background": { "name": "Bazaar", "rarity": "original" } },
+      { "armour": { "name": "brown", "rarity": "original" } },
+      { "pattern": { "name": "white", "rarity": "original" } },
+      { "helmet": { "name": "sky blue", "rarity": "original" } },
+      { "cheek": { "name": "grey", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#22",
+    "edition": 22,
+    "dna": "0510213041",
+    "date": "2021-09-10 19:52:48.753745",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#22",
+    "attributes": [
+      { "background": { "name": "white", "rarity": "original" } },
+      { "armour": { "name": "brown", "rarity": "original" } },
+      { "pattern": { "name": "white", "rarity": "original" } },
+      { "helmet": { "name": "green cryola", "rarity": "original" } },
+      { "cheek": { "name": "grey", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#23",
+    "edition": 23,
+    "dna": "0510203140",
+    "date": "2021-09-10 19:52:49.073678",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#23",
+    "attributes": [
+      { "background": { "name": "Skin", "rarity": "rare" } },
+      { "armour": { "name": "yellow", "rarity": "super_rare" } },
+      { "pattern": { "name": "orange", "rarity": "super_rare" } },
+      { "helmet": { "name": "green", "rarity": "super_rare" } },
+      { "cheek": { "name": "brass", "rarity": "rare" } }
+    ]
+  },
+  {
+    "name": "#24",
+    "edition": 24,
+    "dna": "0111213141",
+    "date": "2021-09-10 19:52:49.404564",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#24",
+    "attributes": [
+      { "background": { "name": "De York", "rarity": "original" } },
+      { "armour": { "name": "teal blue", "rarity": "rare" } },
+      { "pattern": { "name": "blue", "rarity": "rare" } },
+      { "helmet": { "name": "blue", "rarity": "rare" } },
+      { "cheek": { "name": "grey", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#25",
+    "edition": 25,
+    "dna": "0111203140",
+    "date": "2021-09-10 19:52:49.743386",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#25",
+    "attributes": [
+      { "background": { "name": "Gray", "rarity": "rare" } },
+      { "armour": { "name": "cyan blue", "rarity": "original" } },
+      { "pattern": { "name": "brown", "rarity": "rare" } },
+      { "helmet": { "name": "blue", "rarity": "rare" } },
+      { "cheek": { "name": "brass", "rarity": "rare" } }
+    ]
+  },
+  {
+    "name": "#26",
+    "edition": 26,
+    "dna": "0011203140",
+    "date": "2021-09-10 19:52:50.080600",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#26",
+    "attributes": [
+      { "background": { "name": "Violet", "rarity": "rare" } },
+      { "armour": { "name": "cyan blue", "rarity": "original" } },
+      { "pattern": { "name": "brown", "rarity": "rare" } },
+      { "helmet": { "name": "sky blue", "rarity": "original" } },
+      { "cheek": { "name": "brown", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#27",
+    "edition": 27,
+    "dna": "0210203041",
+    "date": "2021-09-10 19:52:50.415602",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#27",
+    "attributes": [
+      { "background": { "name": "Yellow", "rarity": "original" } },
+      { "armour": { "name": "dark blue", "rarity": "rare" } },
+      { "pattern": { "name": "black", "rarity": "original" } },
+      { "helmet": { "name": "yellow", "rarity": "rare" } },
+      { "cheek": { "name": "grey", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#28",
+    "edition": 28,
+    "dna": "0210203040",
+    "date": "2021-09-10 19:52:50.744512",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#28",
+    "attributes": [
+      { "background": { "name": "Yellow", "rarity": "super_rare" } },
+      { "armour": { "name": "yellow", "rarity": "super_rare" } },
+      { "pattern": { "name": "black", "rarity": "original" } },
+      { "helmet": { "name": "yellow", "rarity": "rare" } },
+      { "cheek": { "name": "brass", "rarity": "rare" } }
+    ]
+  },
+  {
+    "name": "#29",
+    "edition": 29,
+    "dna": "0111203040",
+    "date": "2021-09-10 19:52:51.080922",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#29",
+    "attributes": [
+      { "background": { "name": "Gray", "rarity": "rare" } },
+      { "armour": { "name": "teal blue", "rarity": "rare" } },
+      { "pattern": { "name": "brown", "rarity": "rare" } },
+      { "helmet": { "name": "green cryola", "rarity": "original" } },
+      { "cheek": { "name": "brown", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#30",
+    "edition": 30,
+    "dna": "0410213141",
+    "date": "2021-09-10 19:52:51.419121",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#30",
+    "attributes": [
+      { "background": { "name": "Blue", "rarity": "original" } },
+      { "armour": { "name": "brown", "rarity": "original" } },
+      { "pattern": { "name": "white", "rarity": "original" } },
+      { "helmet": { "name": "sky blue", "rarity": "original" } },
+      { "cheek": { "name": "grey", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#31",
+    "edition": 31,
+    "dna": "0011213140",
+    "date": "2021-09-10 19:52:51.757977",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#31",
+    "attributes": [
+      { "background": { "name": "Violet", "rarity": "rare" } },
+      { "armour": { "name": "purple", "rarity": "super_rare" } },
+      { "pattern": { "name": "red", "rarity": "super_rare" } },
+      { "helmet": { "name": "sky blue", "rarity": "original" } },
+      { "cheek": { "name": "brass", "rarity": "rare" } }
+    ]
+  },
+  {
+    "name": "#32",
+    "edition": 32,
+    "dna": "0211203040",
+    "date": "2021-09-10 19:52:52.091535",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#32",
+    "attributes": [
+      { "background": { "name": "Yellow", "rarity": "original" } },
+      { "armour": { "name": "cyan blue", "rarity": "original" } },
+      { "pattern": { "name": "black", "rarity": "original" } },
+      { "helmet": { "name": "green cryola", "rarity": "original" } },
+      { "cheek": { "name": "brown", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#33",
+    "edition": 33,
+    "dna": "0010213141",
+    "date": "2021-09-10 19:52:52.423112",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#33",
+    "attributes": [
+      { "background": { "name": "Violet", "rarity": "rare" } },
+      { "armour": { "name": "dark blue", "rarity": "rare" } },
+      { "pattern": { "name": "red", "rarity": "super_rare" } },
+      { "helmet": { "name": "blue", "rarity": "rare" } },
+      { "cheek": { "name": "grey", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#34",
+    "edition": 34,
+    "dna": "0111213040",
+    "date": "2021-09-10 19:52:52.759163",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#34",
+    "attributes": [
+      { "background": { "name": "De York", "rarity": "original" } },
+      { "armour": { "name": "teal blue", "rarity": "rare" } },
+      { "pattern": { "name": "white", "rarity": "original" } },
+      { "helmet": { "name": "green cryola", "rarity": "original" } },
+      { "cheek": { "name": "brass", "rarity": "rare" } }
+    ]
+  },
+  {
+    "name": "#35",
+    "edition": 35,
+    "dna": "0610213041",
+    "date": "2021-09-10 19:52:53.093711",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#35",
+    "attributes": [
+      { "background": { "name": "Bazaar", "rarity": "original" } },
+      { "armour": { "name": "dark blue", "rarity": "rare" } },
+      { "pattern": { "name": "white", "rarity": "original" } },
+      { "helmet": { "name": "yellow", "rarity": "rare" } },
+      { "cheek": { "name": "yellow", "rarity": "rare" } }
+    ]
+  },
+  {
+    "name": "#36",
+    "edition": 36,
+    "dna": "0311213040",
+    "date": "2021-09-10 19:52:53.432862",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#36",
+    "attributes": [
+      { "background": { "name": "Grey", "rarity": "original" } },
+      { "armour": { "name": "cyan blue", "rarity": "original" } },
+      { "pattern": { "name": "white", "rarity": "original" } },
+      { "helmet": { "name": "green cryola", "rarity": "original" } },
+      { "cheek": { "name": "brown", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#37",
+    "edition": 37,
+    "dna": "0311203140",
+    "date": "2021-09-10 19:52:53.778840",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#37",
+    "attributes": [
+      { "background": { "name": "Grey", "rarity": "original" } },
+      { "armour": { "name": "cyan blue", "rarity": "original" } },
+      { "pattern": { "name": "brown", "rarity": "rare" } },
+      { "helmet": { "name": "blue", "rarity": "rare" } },
+      { "cheek": { "name": "brass", "rarity": "rare" } }
+    ]
+  },
+  {
+    "name": "#38",
+    "edition": 38,
+    "dna": "0310203040",
+    "date": "2021-09-10 19:52:54.122110",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#38",
+    "attributes": [
+      { "background": { "name": "Grey", "rarity": "original" } },
       { "armour": { "name": "brown", "rarity": "original" } },
       { "pattern": { "name": "black", "rarity": "original" } },
       { "helmet": { "name": "green cryola", "rarity": "original" } },
@@ -90,29 +570,164 @@
     ]
   },
   {
-    "name": "#7",
-    "edition": 7,
-    "dna": "00011",
-    "date": "2021-09-01 20:00:52.963826",
+    "name": "#39",
+    "edition": 39,
+    "dna": "0211213040",
+    "date": "2021-09-10 19:52:54.463913",
     "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
-    "image": "http://localhost/get/nft/#7",
+    "image": "http://localhost/get/nft/#39",
     "attributes": [
-      { "backgrond": { "name": "black", "rarity": "original" } },
+      { "background": { "name": "Yellow", "rarity": "original" } },
+      { "armour": { "name": "cyan blue", "rarity": "original" } },
+      { "pattern": { "name": "blue", "rarity": "rare" } },
+      { "helmet": { "name": "green cryola", "rarity": "original" } },
+      { "cheek": { "name": "brown", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#40",
+    "edition": 40,
+    "dna": "0110203141",
+    "date": "2021-09-10 19:52:54.812393",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#40",
+    "attributes": [
+      { "background": { "name": "De York", "rarity": "original" } },
       { "armour": { "name": "brown", "rarity": "original" } },
-      { "pattern": { "name": "black", "rarity": "original" } },
-      { "helmet": { "name": "sky blue", "rarity": "original" } },
+      { "pattern": { "name": "brown", "rarity": "rare" } },
+      { "helmet": { "name": "blue", "rarity": "rare" } },
       { "cheek": { "name": "grey", "rarity": "original" } }
     ]
   },
   {
-    "name": "#8",
-    "edition": 8,
-    "dna": "11111",
-    "date": "2021-09-01 20:00:53.278889",
+    "name": "#41",
+    "edition": 41,
+    "dna": "0110203041",
+    "date": "2021-09-10 19:52:55.158032",
     "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
-    "image": "http://localhost/get/nft/#8",
+    "image": "http://localhost/get/nft/#41",
     "attributes": [
-      { "backgrond": { "name": "white", "rarity": "original" } },
+      { "background": { "name": "De York", "rarity": "original" } },
+      { "armour": { "name": "dark blue", "rarity": "rare" } },
+      { "pattern": { "name": "brown", "rarity": "rare" } },
+      { "helmet": { "name": "yellow", "rarity": "rare" } },
+      { "cheek": { "name": "grey", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#42",
+    "edition": 42,
+    "dna": "0310203140",
+    "date": "2021-09-10 19:52:55.507200",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#42",
+    "attributes": [
+      { "background": { "name": "Grey", "rarity": "original" } },
+      { "armour": { "name": "brown", "rarity": "original" } },
+      { "pattern": { "name": "black", "rarity": "original" } },
+      { "helmet": { "name": "sky blue", "rarity": "original" } },
+      { "cheek": { "name": "brown", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#43",
+    "edition": 43,
+    "dna": "0111213140",
+    "date": "2021-09-10 19:52:55.842495",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#43",
+    "attributes": [
+      { "background": { "name": "De York", "rarity": "original" } },
+      { "armour": { "name": "teal blue", "rarity": "rare" } },
+      { "pattern": { "name": "blue", "rarity": "rare" } },
+      { "helmet": { "name": "blue", "rarity": "rare" } },
+      { "cheek": { "name": "brown", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#44",
+    "edition": 44,
+    "dna": "0411213140",
+    "date": "2021-09-10 19:52:56.186705",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#44",
+    "attributes": [
+      { "background": { "name": "Brown", "rarity": "rare" } },
+      { "armour": { "name": "cyan blue", "rarity": "original" } },
+      { "pattern": { "name": "white", "rarity": "original" } },
+      { "helmet": { "name": "blue", "rarity": "rare" } },
+      { "cheek": { "name": "brass", "rarity": "rare" } }
+    ]
+  },
+  {
+    "name": "#45",
+    "edition": 45,
+    "dna": "0311213140",
+    "date": "2021-09-10 19:52:56.533795",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#45",
+    "attributes": [
+      { "background": { "name": "Grey", "rarity": "original" } },
+      { "armour": { "name": "cyan blue", "rarity": "original" } },
+      { "pattern": { "name": "white", "rarity": "original" } },
+      { "helmet": { "name": "sky blue", "rarity": "original" } },
+      { "cheek": { "name": "brown", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#46",
+    "edition": 46,
+    "dna": "0211213041",
+    "date": "2021-09-10 19:52:56.876933",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#46",
+    "attributes": [
+      { "background": { "name": "Yellow", "rarity": "original" } },
+      { "armour": { "name": "teal blue", "rarity": "rare" } },
+      { "pattern": { "name": "blue", "rarity": "rare" } },
+      { "helmet": { "name": "yellow", "rarity": "rare" } },
+      { "cheek": { "name": "grey", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#47",
+    "edition": 47,
+    "dna": "0410203140",
+    "date": "2021-09-10 19:52:57.218586",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#47",
+    "attributes": [
+      { "background": { "name": "Blue", "rarity": "original" } },
+      { "armour": { "name": "brown", "rarity": "original" } },
+      { "pattern": { "name": "black", "rarity": "original" } },
+      { "helmet": { "name": "sky blue", "rarity": "original" } },
+      { "cheek": { "name": "brown", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#48",
+    "edition": 48,
+    "dna": "0510213040",
+    "date": "2021-09-10 19:52:57.557358",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#48",
+    "attributes": [
+      { "background": { "name": "Skin", "rarity": "rare" } },
+      { "armour": { "name": "brown", "rarity": "original" } },
+      { "pattern": { "name": "white", "rarity": "original" } },
+      { "helmet": { "name": "yellow", "rarity": "rare" } },
+      { "cheek": { "name": "brass", "rarity": "rare" } }
+    ]
+  },
+  {
+    "name": "#49",
+    "edition": 49,
+    "dna": "0511213141",
+    "date": "2021-09-10 19:52:57.895518",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#49",
+    "attributes": [
+      { "background": { "name": "white", "rarity": "original" } },
       { "armour": { "name": "cyan blue", "rarity": "original" } },
       { "pattern": { "name": "white", "rarity": "original" } },
       { "helmet": { "name": "sky blue", "rarity": "original" } },
@@ -120,14 +735,464 @@
     ]
   },
   {
-    "name": "#9",
-    "edition": 9,
-    "dna": "01010",
-    "date": "2021-09-01 20:00:53.603461",
+    "name": "#50",
+    "edition": 50,
+    "dna": "0511213040",
+    "date": "2021-09-10 19:52:58.226158",
     "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
-    "image": "http://localhost/get/nft/#9",
+    "image": "http://localhost/get/nft/#50",
     "attributes": [
-      { "backgrond": { "name": "black", "rarity": "original" } },
+      { "background": { "name": "white", "rarity": "original" } },
+      { "armour": { "name": "cyan blue", "rarity": "original" } },
+      { "pattern": { "name": "white", "rarity": "original" } },
+      { "helmet": { "name": "green cryola", "rarity": "original" } },
+      { "cheek": { "name": "brown", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#51",
+    "edition": 51,
+    "dna": "0010203141",
+    "date": "2021-09-10 19:52:58.565192",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#51",
+    "attributes": [
+      { "background": { "name": "Olive", "rarity": "original" } },
+      { "armour": { "name": "dark blue", "rarity": "rare" } },
+      { "pattern": { "name": "black", "rarity": "original" } },
+      { "helmet": { "name": "blue", "rarity": "rare" } },
+      { "cheek": { "name": "yellow", "rarity": "rare" } }
+    ]
+  },
+  {
+    "name": "#52",
+    "edition": 52,
+    "dna": "0511213140",
+    "date": "2021-09-10 19:52:58.890682",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#52",
+    "attributes": [
+      { "background": { "name": "Skin", "rarity": "rare" } },
+      { "armour": { "name": "cyan blue", "rarity": "original" } },
+      { "pattern": { "name": "white", "rarity": "original" } },
+      { "helmet": { "name": "blue", "rarity": "rare" } },
+      { "cheek": { "name": "brown", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#53",
+    "edition": 53,
+    "dna": "0311203041",
+    "date": "2021-09-10 19:52:59.210819",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#53",
+    "attributes": [
+      { "background": { "name": "Blue", "rarity": "rare" } },
+      { "armour": { "name": "cyan blue", "rarity": "original" } },
+      { "pattern": { "name": "black", "rarity": "original" } },
+      { "helmet": { "name": "yellow", "rarity": "rare" } },
+      { "cheek": { "name": "grey", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#54",
+    "edition": 54,
+    "dna": "0510203040",
+    "date": "2021-09-10 19:52:59.533289",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#54",
+    "attributes": [
+      { "background": { "name": "white", "rarity": "original" } },
+      { "armour": { "name": "brown", "rarity": "original" } },
+      { "pattern": { "name": "black", "rarity": "original" } },
+      { "helmet": { "name": "green cryola", "rarity": "original" } },
+      { "cheek": { "name": "brown", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#55",
+    "edition": 55,
+    "dna": "0611203141",
+    "date": "2021-09-10 19:52:59.844074",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#55",
+    "attributes": [
+      { "background": { "name": "Bazaar", "rarity": "original" } },
+      { "armour": { "name": "cyan blue", "rarity": "original" } },
+      { "pattern": { "name": "black", "rarity": "original" } },
+      { "helmet": { "name": "sky blue", "rarity": "original" } },
+      { "cheek": { "name": "grey", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#56",
+    "edition": 56,
+    "dna": "0111213041",
+    "date": "2021-09-10 19:53:00.173538",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#56",
+    "attributes": [
+      { "background": { "name": "De York", "rarity": "original" } },
+      { "armour": { "name": "cyan blue", "rarity": "original" } },
+      { "pattern": { "name": "white", "rarity": "original" } },
+      { "helmet": { "name": "green cryola", "rarity": "original" } },
+      { "cheek": { "name": "grey", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#57",
+    "edition": 57,
+    "dna": "0611213141",
+    "date": "2021-09-10 19:53:00.505603",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#57",
+    "attributes": [
+      { "background": { "name": "Bazaar", "rarity": "original" } },
+      { "armour": { "name": "cyan blue", "rarity": "original" } },
+      { "pattern": { "name": "white", "rarity": "original" } },
+      { "helmet": { "name": "sky blue", "rarity": "original" } },
+      { "cheek": { "name": "grey", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#58",
+    "edition": 58,
+    "dna": "0511203041",
+    "date": "2021-09-10 19:53:00.840751",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#58",
+    "attributes": [
+      { "background": { "name": "white", "rarity": "original" } },
+      { "armour": { "name": "cyan blue", "rarity": "original" } },
+      { "pattern": { "name": "black", "rarity": "original" } },
+      { "helmet": { "name": "green cryola", "rarity": "original" } },
+      { "cheek": { "name": "grey", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#59",
+    "edition": 59,
+    "dna": "0610213040",
+    "date": "2021-09-10 19:53:01.160529",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#59",
+    "attributes": [
+      { "background": { "name": "Bazaar", "rarity": "original" } },
+      { "armour": { "name": "brown", "rarity": "original" } },
+      { "pattern": { "name": "blue", "rarity": "rare" } },
+      { "helmet": { "name": "yellow", "rarity": "rare" } },
+      { "cheek": { "name": "brown", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#60",
+    "edition": 60,
+    "dna": "0111203041",
+    "date": "2021-09-10 19:53:01.488759",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#60",
+    "attributes": [
+      { "background": { "name": "De York", "rarity": "original" } },
+      { "armour": { "name": "teal blue", "rarity": "rare" } },
+      { "pattern": { "name": "brown", "rarity": "rare" } },
+      { "helmet": { "name": "green cryola", "rarity": "original" } },
+      { "cheek": { "name": "yellow", "rarity": "rare" } }
+    ]
+  },
+  {
+    "name": "#61",
+    "edition": 61,
+    "dna": "0510203041",
+    "date": "2021-09-10 19:53:01.816107",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#61",
+    "attributes": [
+      { "background": { "name": "Skin", "rarity": "rare" } },
+      { "armour": { "name": "dark blue", "rarity": "rare" } },
+      { "pattern": { "name": "brown", "rarity": "rare" } },
+      { "helmet": { "name": "green cryola", "rarity": "original" } },
+      { "cheek": { "name": "grey", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#62",
+    "edition": 62,
+    "dna": "0411203041",
+    "date": "2021-09-10 19:53:02.142499",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#62",
+    "attributes": [
+      { "background": { "name": "Blue", "rarity": "original" } },
+      { "armour": { "name": "cyan blue", "rarity": "original" } },
+      { "pattern": { "name": "black", "rarity": "original" } },
+      { "helmet": { "name": "green cryola", "rarity": "original" } },
+      { "cheek": { "name": "grey", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#63",
+    "edition": 63,
+    "dna": "0611203041",
+    "date": "2021-09-10 19:53:02.471811",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#63",
+    "attributes": [
+      { "background": { "name": "Bazaar", "rarity": "original" } },
+      { "armour": { "name": "cyan blue", "rarity": "original" } },
+      { "pattern": { "name": "brown", "rarity": "rare" } },
+      { "helmet": { "name": "yellow", "rarity": "rare" } },
+      { "cheek": { "name": "grey", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#64",
+    "edition": 64,
+    "dna": "0411213040",
+    "date": "2021-09-10 19:53:02.807945",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#64",
+    "attributes": [
+      { "background": { "name": "Brown", "rarity": "rare" } },
+      { "armour": { "name": "cyan blue", "rarity": "original" } },
+      { "pattern": { "name": "blue", "rarity": "rare" } },
+      { "helmet": { "name": "yellow", "rarity": "rare" } },
+      { "cheek": { "name": "brass", "rarity": "rare" } }
+    ]
+  },
+  {
+    "name": "#65",
+    "edition": 65,
+    "dna": "0010213040",
+    "date": "2021-09-10 19:53:03.133819",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#65",
+    "attributes": [
+      { "background": { "name": "Olive", "rarity": "original" } },
+      { "armour": { "name": "brown", "rarity": "original" } },
+      { "pattern": { "name": "white", "rarity": "original" } },
+      { "helmet": { "name": "green cryola", "rarity": "original" } },
+      { "cheek": { "name": "brown", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#66",
+    "edition": 66,
+    "dna": "0411213041",
+    "date": "2021-09-10 19:53:03.464391",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#66",
+    "attributes": [
+      { "background": { "name": "Brown", "rarity": "rare" } },
+      { "armour": { "name": "teal blue", "rarity": "rare" } },
+      { "pattern": { "name": "blue", "rarity": "rare" } },
+      { "helmet": { "name": "yellow", "rarity": "rare" } },
+      { "cheek": { "name": "grey", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#67",
+    "edition": 67,
+    "dna": "0211213140",
+    "date": "2021-09-10 19:53:03.788210",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#67",
+    "attributes": [
+      { "background": { "name": "Yellow", "rarity": "original" } },
+      { "armour": { "name": "cyan blue", "rarity": "original" } },
+      { "pattern": { "name": "blue", "rarity": "rare" } },
+      { "helmet": { "name": "blue", "rarity": "rare" } },
+      { "cheek": { "name": "brown", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#68",
+    "edition": 68,
+    "dna": "0410203141",
+    "date": "2021-09-10 19:53:04.114193",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#68",
+    "attributes": [
+      { "background": { "name": "Brown", "rarity": "rare" } },
+      { "armour": { "name": "brown", "rarity": "original" } },
+      { "pattern": { "name": "black", "rarity": "original" } },
+      { "helmet": { "name": "blue", "rarity": "rare" } },
+      { "cheek": { "name": "yellow", "rarity": "rare" } }
+    ]
+  },
+  {
+    "name": "#69",
+    "edition": 69,
+    "dna": "0311203141",
+    "date": "2021-09-10 19:53:04.440764",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#69",
+    "attributes": [
+      { "background": { "name": "Grey", "rarity": "original" } },
+      { "armour": { "name": "cyan blue", "rarity": "original" } },
+      { "pattern": { "name": "brown", "rarity": "rare" } },
+      { "helmet": { "name": "blue", "rarity": "rare" } },
+      { "cheek": { "name": "grey", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#70",
+    "edition": 70,
+    "dna": "0610203040",
+    "date": "2021-09-10 19:53:04.764188",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#70",
+    "attributes": [
+      { "background": { "name": "Bazaar", "rarity": "original" } },
+      { "armour": { "name": "brown", "rarity": "original" } },
+      { "pattern": { "name": "black", "rarity": "original" } },
+      { "helmet": { "name": "green cryola", "rarity": "original" } },
+      { "cheek": { "name": "brown", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#71",
+    "edition": 71,
+    "dna": "0511213041",
+    "date": "2021-09-10 19:53:05.090692",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#71",
+    "attributes": [
+      { "background": { "name": "white", "rarity": "original" } },
+      { "armour": { "name": "cyan blue", "rarity": "original" } },
+      { "pattern": { "name": "white", "rarity": "original" } },
+      { "helmet": { "name": "yellow", "rarity": "rare" } },
+      { "cheek": { "name": "yellow", "rarity": "rare" } }
+    ]
+  },
+  {
+    "name": "#72",
+    "edition": 72,
+    "dna": "0510203141",
+    "date": "2021-09-10 19:53:05.418745",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#72",
+    "attributes": [
+      { "background": { "name": "Skin", "rarity": "rare" } },
+      { "armour": { "name": "brown", "rarity": "original" } },
+      { "pattern": { "name": "brown", "rarity": "rare" } },
+      { "helmet": { "name": "blue", "rarity": "rare" } },
+      { "cheek": { "name": "yellow", "rarity": "rare" } }
+    ]
+  },
+  {
+    "name": "#73",
+    "edition": 73,
+    "dna": "0611203040",
+    "date": "2021-09-10 19:53:05.747253",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#73",
+    "attributes": [
+      { "background": { "name": "Bazaar", "rarity": "original" } },
+      { "armour": { "name": "cyan blue", "rarity": "original" } },
+      { "pattern": { "name": "brown", "rarity": "rare" } },
+      { "helmet": { "name": "yellow", "rarity": "rare" } },
+      { "cheek": { "name": "brass", "rarity": "rare" } }
+    ]
+  },
+  {
+    "name": "#74",
+    "edition": 74,
+    "dna": "0611213140",
+    "date": "2021-09-10 19:53:06.079798",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#74",
+    "attributes": [
+      { "background": { "name": "Bazaar", "rarity": "original" } },
+      { "armour": { "name": "cyan blue", "rarity": "original" } },
+      { "pattern": { "name": "white", "rarity": "original" } },
+      { "helmet": { "name": "sky blue", "rarity": "original" } },
+      { "cheek": { "name": "brown", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#75",
+    "edition": 75,
+    "dna": "0210203140",
+    "date": "2021-09-10 19:53:06.416918",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#75",
+    "attributes": [
+      { "background": { "name": "Yellow", "rarity": "original" } },
+      { "armour": { "name": "brown", "rarity": "original" } },
+      { "pattern": { "name": "black", "rarity": "original" } },
+      { "helmet": { "name": "sky blue", "rarity": "original" } },
+      { "cheek": { "name": "brown", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#76",
+    "edition": 76,
+    "dna": "0310203141",
+    "date": "2021-09-10 19:53:06.753447",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#76",
+    "attributes": [
+      { "background": { "name": "Grey", "rarity": "original" } },
+      { "armour": { "name": "brown", "rarity": "original" } },
+      { "pattern": { "name": "black", "rarity": "original" } },
+      { "helmet": { "name": "sky blue", "rarity": "original" } },
+      { "cheek": { "name": "grey", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#77",
+    "edition": 77,
+    "dna": "0211203141",
+    "date": "2021-09-10 19:53:07.082882",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#77",
+    "attributes": [
+      { "background": { "name": "Yellow", "rarity": "original" } },
+      { "armour": { "name": "cyan blue", "rarity": "original" } },
+      { "pattern": { "name": "black", "rarity": "original" } },
+      { "helmet": { "name": "sky blue", "rarity": "original" } },
+      { "cheek": { "name": "grey", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#78",
+    "edition": 78,
+    "dna": "0410203041",
+    "date": "2021-09-10 19:53:07.410166",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#78",
+    "attributes": [
+      { "background": { "name": "Blue", "rarity": "original" } },
+      { "armour": { "name": "brown", "rarity": "original" } },
+      { "pattern": { "name": "black", "rarity": "original" } },
+      { "helmet": { "name": "green cryola", "rarity": "original" } },
+      { "cheek": { "name": "grey", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#79",
+    "edition": 79,
+    "dna": "0010203040",
+    "date": "2021-09-10 19:53:07.744416",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#79",
+    "attributes": [
+      { "background": { "name": "Olive", "rarity": "original" } },
+      { "armour": { "name": "brown", "rarity": "original" } },
+      { "pattern": { "name": "black", "rarity": "original" } },
+      { "helmet": { "name": "green cryola", "rarity": "original" } },
+      { "cheek": { "name": "brown", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#80",
+    "edition": 80,
+    "dna": "0411203140",
+    "date": "2021-09-10 19:53:08.076559",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#80",
+    "attributes": [
+      { "background": { "name": "Blue", "rarity": "original" } },
       { "armour": { "name": "cyan blue", "rarity": "original" } },
       { "pattern": { "name": "black", "rarity": "original" } },
       { "helmet": { "name": "sky blue", "rarity": "original" } },
@@ -135,14 +1200,299 @@
     ]
   },
   {
-    "name": "#10",
-    "edition": 10,
-    "dna": "00110",
-    "date": "2021-09-01 20:00:53.921874",
+    "name": "#81",
+    "edition": 81,
+    "dna": "0610213140",
+    "date": "2021-09-10 19:53:08.411431",
     "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
-    "image": "http://localhost/get/nft/#10",
+    "image": "http://localhost/get/nft/#81",
     "attributes": [
-      { "backgrond": { "name": "black", "rarity": "original" } },
+      { "background": { "name": "Bazaar", "rarity": "original" } },
+      { "armour": { "name": "brown", "rarity": "original" } },
+      { "pattern": { "name": "white", "rarity": "original" } },
+      { "helmet": { "name": "sky blue", "rarity": "original" } },
+      { "cheek": { "name": "brown", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#82",
+    "edition": 82,
+    "dna": "0011203141",
+    "date": "2021-09-10 19:53:08.750949",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#82",
+    "attributes": [
+      { "background": { "name": "Olive", "rarity": "original" } },
+      { "armour": { "name": "cyan blue", "rarity": "original" } },
+      { "pattern": { "name": "black", "rarity": "original" } },
+      { "helmet": { "name": "sky blue", "rarity": "original" } },
+      { "cheek": { "name": "grey", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#83",
+    "edition": 83,
+    "dna": "0611213041",
+    "date": "2021-09-10 19:53:09.083174",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#83",
+    "attributes": [
+      { "background": { "name": "Bazaar", "rarity": "original" } },
+      { "armour": { "name": "cyan blue", "rarity": "original" } },
+      { "pattern": { "name": "white", "rarity": "original" } },
+      { "helmet": { "name": "green cryola", "rarity": "original" } },
+      { "cheek": { "name": "grey", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#84",
+    "edition": 84,
+    "dna": "0411213141",
+    "date": "2021-09-10 19:53:09.418848",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#84",
+    "attributes": [
+      { "background": { "name": "Blue", "rarity": "original" } },
+      { "armour": { "name": "cyan blue", "rarity": "original" } },
+      { "pattern": { "name": "white", "rarity": "original" } },
+      { "helmet": { "name": "sky blue", "rarity": "original" } },
+      { "cheek": { "name": "grey", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#85",
+    "edition": 85,
+    "dna": "0211213141",
+    "date": "2021-09-10 19:53:09.745764",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#85",
+    "attributes": [
+      { "background": { "name": "Yellow", "rarity": "original" } },
+      { "armour": { "name": "cyan blue", "rarity": "original" } },
+      { "pattern": { "name": "white", "rarity": "original" } },
+      { "helmet": { "name": "sky blue", "rarity": "original" } },
+      { "cheek": { "name": "grey", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#86",
+    "edition": 86,
+    "dna": "0110213041",
+    "date": "2021-09-10 19:53:10.083449",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#86",
+    "attributes": [
+      { "background": { "name": "De York", "rarity": "original" } },
+      { "armour": { "name": "brown", "rarity": "original" } },
+      { "pattern": { "name": "white", "rarity": "original" } },
+      { "helmet": { "name": "green cryola", "rarity": "original" } },
+      { "cheek": { "name": "grey", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#87",
+    "edition": 87,
+    "dna": "0410203040",
+    "date": "2021-09-10 19:53:10.421374",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#87",
+    "attributes": [
+      { "background": { "name": "Blue", "rarity": "original" } },
+      { "armour": { "name": "brown", "rarity": "original" } },
+      { "pattern": { "name": "black", "rarity": "original" } },
+      { "helmet": { "name": "green cryola", "rarity": "original" } },
+      { "cheek": { "name": "brown", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#88",
+    "edition": 88,
+    "dna": "0310213040",
+    "date": "2021-09-10 19:53:10.760264",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#88",
+    "attributes": [
+      { "background": { "name": "Grey", "rarity": "original" } },
+      { "armour": { "name": "brown", "rarity": "original" } },
+      { "pattern": { "name": "white", "rarity": "original" } },
+      { "helmet": { "name": "green cryola", "rarity": "original" } },
+      { "cheek": { "name": "brown", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#89",
+    "edition": 89,
+    "dna": "0411203141",
+    "date": "2021-09-10 19:53:11.092878",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#89",
+    "attributes": [
+      { "background": { "name": "Blue", "rarity": "original" } },
+      { "armour": { "name": "cyan blue", "rarity": "original" } },
+      { "pattern": { "name": "black", "rarity": "original" } },
+      { "helmet": { "name": "sky blue", "rarity": "original" } },
+      { "cheek": { "name": "grey", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#90",
+    "edition": 90,
+    "dna": "0010213041",
+    "date": "2021-09-10 19:53:11.425406",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#90",
+    "attributes": [
+      { "background": { "name": "Olive", "rarity": "original" } },
+      { "armour": { "name": "brown", "rarity": "original" } },
+      { "pattern": { "name": "white", "rarity": "original" } },
+      { "helmet": { "name": "green cryola", "rarity": "original" } },
+      { "cheek": { "name": "grey", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#91",
+    "edition": 91,
+    "dna": "0510213141",
+    "date": "2021-09-10 19:53:11.762635",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#91",
+    "attributes": [
+      { "background": { "name": "white", "rarity": "original" } },
+      { "armour": { "name": "brown", "rarity": "original" } },
+      { "pattern": { "name": "white", "rarity": "original" } },
+      { "helmet": { "name": "sky blue", "rarity": "original" } },
+      { "cheek": { "name": "grey", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#92",
+    "edition": 92,
+    "dna": "0210203141",
+    "date": "2021-09-10 19:53:12.088825",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#92",
+    "attributes": [
+      { "background": { "name": "Yellow", "rarity": "original" } },
+      { "armour": { "name": "brown", "rarity": "original" } },
+      { "pattern": { "name": "black", "rarity": "original" } },
+      { "helmet": { "name": "sky blue", "rarity": "original" } },
+      { "cheek": { "name": "grey", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#93",
+    "edition": 93,
+    "dna": "0310213041",
+    "date": "2021-09-10 19:53:12.428641",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#93",
+    "attributes": [
+      { "background": { "name": "Grey", "rarity": "original" } },
+      { "armour": { "name": "brown", "rarity": "original" } },
+      { "pattern": { "name": "white", "rarity": "original" } },
+      { "helmet": { "name": "green cryola", "rarity": "original" } },
+      { "cheek": { "name": "grey", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#94",
+    "edition": 94,
+    "dna": "0010203041",
+    "date": "2021-09-10 19:53:12.772090",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#94",
+    "attributes": [
+      { "background": { "name": "Olive", "rarity": "original" } },
+      { "armour": { "name": "brown", "rarity": "original" } },
+      { "pattern": { "name": "black", "rarity": "original" } },
+      { "helmet": { "name": "green cryola", "rarity": "original" } },
+      { "cheek": { "name": "grey", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#95",
+    "edition": 95,
+    "dna": "0210213041",
+    "date": "2021-09-10 19:53:13.103596",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#95",
+    "attributes": [
+      { "background": { "name": "Yellow", "rarity": "original" } },
+      { "armour": { "name": "brown", "rarity": "original" } },
+      { "pattern": { "name": "white", "rarity": "original" } },
+      { "helmet": { "name": "green cryola", "rarity": "original" } },
+      { "cheek": { "name": "grey", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#96",
+    "edition": 96,
+    "dna": "0511203040",
+    "date": "2021-09-10 19:53:13.442057",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#96",
+    "attributes": [
+      { "background": { "name": "white", "rarity": "original" } },
+      { "armour": { "name": "cyan blue", "rarity": "original" } },
+      { "pattern": { "name": "black", "rarity": "original" } },
+      { "helmet": { "name": "green cryola", "rarity": "original" } },
+      { "cheek": { "name": "brown", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#97",
+    "edition": 97,
+    "dna": "0110213141",
+    "date": "2021-09-10 19:53:13.770411",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#97",
+    "attributes": [
+      { "background": { "name": "De York", "rarity": "original" } },
+      { "armour": { "name": "brown", "rarity": "original" } },
+      { "pattern": { "name": "white", "rarity": "original" } },
+      { "helmet": { "name": "sky blue", "rarity": "original" } },
+      { "cheek": { "name": "grey", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#98",
+    "edition": 98,
+    "dna": "0311203040",
+    "date": "2021-09-10 19:53:14.106874",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#98",
+    "attributes": [
+      { "background": { "name": "Grey", "rarity": "original" } },
+      { "armour": { "name": "cyan blue", "rarity": "original" } },
+      { "pattern": { "name": "black", "rarity": "original" } },
+      { "helmet": { "name": "green cryola", "rarity": "original" } },
+      { "cheek": { "name": "brown", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#99",
+    "edition": 99,
+    "dna": "0011213040",
+    "date": "2021-09-10 19:53:14.442666",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#99",
+    "attributes": [
+      { "background": { "name": "Olive", "rarity": "original" } },
+      { "armour": { "name": "cyan blue", "rarity": "original" } },
+      { "pattern": { "name": "white", "rarity": "original" } },
+      { "helmet": { "name": "green cryola", "rarity": "original" } },
+      { "cheek": { "name": "brown", "rarity": "original" } }
+    ]
+  },
+  {
+    "name": "#100",
+    "edition": 100,
+    "dna": "0210213140",
+    "date": "2021-09-10 19:53:14.785449",
+    "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
+    "image": "http://localhost/get/nft/#100",
+    "attributes": [
+      { "background": { "name": "Yellow", "rarity": "original" } },
       { "armour": { "name": "brown", "rarity": "original" } },
       { "pattern": { "name": "white", "rarity": "original" } },
       { "helmet": { "name": "sky blue", "rarity": "original" } },

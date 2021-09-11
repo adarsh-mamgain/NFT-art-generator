@@ -2,15 +2,29 @@ from PIL import Image
 from layers import *
 import random, datetime, json
 
-
-# todo Add rarity ratio like common:rare:super_rare (20:15:5)
 dnaList = []
 
-def getRarity(editionCount):
-  for rarityWeight in rarityWeightList:
-    if rarityWeight["from"] <= editionCount <= rarityWeight["to"]:
-      rarity = rarityWeight["value"]
-  return rarity
+def getRarity():
+  sum = 0
+  rarityPercent = []
+  rarityPercent = list(map(int, input("Enter rarity percent ↓↓↓\n(Original, Rare, Super rare): ").split()))
+  if not rarityPercent:
+    print("No input provided, default rarity percent is used Original: 50 Rare: 30 Super rare: 20")
+    for i in rarityWeights:
+      rarityPercent.append(rarityWeights[i]["count"])
+  for i in rarityPercent:
+    sum += i
+  if len(rarityPercent) == len(list(dict(rarityWeights))) and sum == 100:
+    for i,j in zip(rarityWeights, rarityPercent):
+      # ! for odd numbers add 1 more count to original
+
+      # ! The loop fuck ups cause it should have atleast 10 edition
+      # ! to make the rarityPercent work fine and find the percent but can't 
+      # ! cause then the rarityWeights will be in decimal for >10
+      rarityWeights[i]["count"] = int(editionSize*j/100)
+    return rarityWeights
+  else:
+    getRarity()
 
 def isDnaUnique(dnaId):
   dna = ''.join(map(str,dnaId))
@@ -19,11 +33,23 @@ def isDnaUnique(dnaId):
   dnaList.append(dna)
   return True
 
-def createDna(layers, rarity):
+def createDna(rarityWeights):
   randomDna = []
-  for i in layers:
-    randomDna.append(int(random.uniform(0, len(layers[i]["elements"][rarity]))))
-  return randomDna
+  elementList = []
+  rarityList = []
+  layerList = []
+  for layer in races["mandalorian"]["layers"]:
+    getAllImages = []
+    rarity = random.choice(rarityWeights)
+    for rare in races["mandalorian"]["layers"][layer]["elements"][rarity]:
+      getAllImages.append(rare)
+    element = random.choice(getAllImages)
+    elementList.append(element)
+    rarityList.append(rarity)
+    layerList.append(layer)
+    randomDna.append(races["mandalorian"]["layers"][layer]["layer_id"])
+    randomDna.append(element["id"])
+  return elementList, rarityList, layerList, randomDna
 
 def createImage(imagesPath, editionCount):
   for path in imagesPath:
@@ -63,21 +89,31 @@ def saveMetadata(editionCount, dna, images):
   return data
 
 def main():
+  getRarity()
   editionCount = 1
-  print("Edition size: ", endEditionAt)
+  print("Edition size: ", editionSize)
   print("Creating your NFTs ...")
   clearMetadata()
-  while(editionCount <= int(endEditionAt)):
-    rarity = getRarity(editionCount)
-    dnaId = createDna(layers, rarity)
+  while editionCount <= editionSize:
+    while True:
+      # todo make the choice more random
+      rare = random.choice(list(rarityWeights))
+      if rarityWeights[rare]["count"] > 0:
+        break
+
+    # ! make this for each race by using "raceWeights"
+    # dnaId = createDna(races["mandalorian"]["layers"])
+    elementList, rarityList, layerList, dnaId = createDna(rarityWeights[rare]["list"])
     dna = ''.join(map(str,dnaId))
     if isDnaUnique(dnaId):
+      rarityWeights[rare]["count"] -= 1
       images = {}
       imagesPath = []
-      for selectedElement,selectedLayer in zip(dnaId, layers):
-        metadata = {"name": layers[selectedLayer]["elements"][rarity][selectedElement]["name"], "rarity": rarity}
+      # ! make this for each race by using "raceWeights"
+      for selectedElement, selectedRarity, selectedLayer in zip(elementList, rarityList, layerList):
+        metadata = {"name": selectedElement["name"], "rarity": selectedRarity}
         images[selectedLayer] = metadata
-        location = layers[selectedLayer]["elements"][rarity][selectedElement]["location"]
+        location = selectedElement["location"]
         imagesPath.append(location)
 
       try:
