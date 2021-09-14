@@ -44,7 +44,7 @@ def getElement(layerPath):
   counter = 0
   elementsList = []
   for element in pathlib.Path(layerPath).iterdir():
-    if element.is_file():
+    if element.is_file() and not element.name.startswith("."):
       value = {
         "id": counter,
         "name": element.name[:-4],
