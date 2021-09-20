@@ -16,12 +16,9 @@ def getRarity():
     sum += i
   if len(rarityPercent) == len(list(dict(layers.rarityWeights))) and sum == 100:
     for i,j in zip(layers.rarityWeights, rarityPercent):
-      # ! for odd numbers add 1 more count to original
-
-      # ! The loop fuck ups cause it should have atleast 10 edition
-      # ! to make the rarityPercent work fine and find the percent but can't 
-      # ! cause then the layers.rarityWeights will be in decimal for >10
       layers.rarityWeights[i]["count"] = int(layers.editionSize*j/100)
+    if layers.editionSize % 2 != 0:
+      layers.rarityWeights["original"]["count"] += 1
     return layers.rarityWeights
   else:
     getRarity()
@@ -42,14 +39,15 @@ def createDna(rarityWeights):
   for layer in layers.races["mandalorian"]["layers"]:
     getAllImages = []
     rarity = random.choice(rarityWeights)
-    for rare in layers.races["mandalorian"]["layers"][layer]["elements"][rarity]:
+    for rare in layers.races["mandalorian"]["layers"][layer]["elements"][rarity]["list"]:
       getAllImages.append(rare)
     element = random.choice(getAllImages)
     elementList.append(element)
     rarityList.append(rarity)
     layerList.append(layer)
     randomDna.append(layers.races["mandalorian"]["layers"][layer]["layer_id"])
-    randomDna.append(element["id"])
+    randomDna.append(layers.races["mandalorian"]["layers"][layer]["elements"][rarity]["rarity_id"])
+    randomDna.append(element["element_id"])
   return elementList, rarityList, layerList, randomDna
 
 def createImage(imagesPath, editionCount):
@@ -69,6 +67,7 @@ def clearMetadata():
     file.seek(0)
     json.dump(data, file, indent = 2)
 
+# ! Finalize the Metadata type and requirements
 def saveMetadata(editionCount, dna, images):
   data = {
     "name": f"#{editionCount}",
@@ -97,7 +96,6 @@ def main():
   clearMetadata()
   while editionCount <= layers.editionSize:
     while True:
-      # todo make the choice more random
       rare = random.choice(list(layers.rarityWeights))
       if layers.rarityWeights[rare]["count"] > 0:
         break
@@ -110,7 +108,6 @@ def main():
       layers.rarityWeights[rare]["count"] -= 1
       images = {}
       imagesPath = []
-      # ! make this for each race by using "raceWeights"
       for selectedElement, selectedRarity, selectedLayer in zip(elementList, rarityList, layerList):
         metadata = {"name": selectedElement["name"], "rarity": selectedRarity}
         images[selectedLayer] = metadata
