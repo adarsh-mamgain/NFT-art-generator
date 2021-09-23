@@ -30,7 +30,6 @@ def isDnaUnique(dnaId):
   dnaList.append(dna)
   return True
 
-# ! make this code more clean
 def createDna(rarityWeights):
   randomDna = []
   elementList = []
@@ -53,21 +52,24 @@ def createDna(rarityWeights):
 def createImage(imagesPath, editionCount):
   for path in imagesPath:
     try:
-      background = Image.open(f'./output/{editionCount}.png')
+      background = Image.open(f'./output/images/{editionCount}.png')
       foreground = Image.open(path)
-      Image.alpha_composite(background.convert('RGBA'), foreground.convert('RGBA')).save(f'./output/{editionCount}.png')
+      Image.alpha_composite(background.convert('RGBA'), foreground.convert('RGBA')).save(f'./output/images/{editionCount}.png')
     except:
-      background = Image.open(path).convert('RGBA').save(f'./output/{editionCount}.png')
+      background = Image.open(path).convert('RGBA').save(f'./output/images/{editionCount}.png')
   print("Built: ", editionCount)
 
 def clearMetadata():
   data = []
-  with open('metadata.json', 'r+') as file:
+  with open('./output/metadata/_metadata.json', 'r+') as file:
     file.truncate()
     file.seek(0)
     json.dump(data, file, indent = 2)
 
+# ! Create attributes
 # ! Finalize the Metadata type and requirements
+# ! Add IPFS image link
+# ! Create individual METADATA.JSON file (eg: 1.json 2.json 3.json)
 def saveMetadata(editionCount, dna, images):
   data = {
     "name": f"#{editionCount}",
@@ -81,13 +83,14 @@ def saveMetadata(editionCount, dna, images):
   for i in images:
     data['attributes'].append({i: images[i]})
     
-  with open('metadata.json', 'r+') as file:
+  with open('./output/metadata/_metadata.json', 'r+') as file:
     fileData = json.load(file)
     fileData.append(data)
     file.seek(0)
     json.dump(fileData, file)
   return data
 
+# ! CREATE SMART CONTRACTS
 def main():
   getRarity()
   editionCount = 1
@@ -100,8 +103,6 @@ def main():
       if layers.rarityWeights[rare]["count"] > 0:
         break
 
-    # ! make this for each race by using "raceWeights"
-    # dnaId = createDna(races["mandalorian"]["layers"])
     elementList, rarityList, layerList, dnaId = createDna(layers.rarityWeights[rare]["list"])
     dna = ''.join(map(str,dnaId))
     if isDnaUnique(dnaId):
@@ -115,6 +116,8 @@ def main():
         imagesPath.append(location)
 
       try:
+        # todo Try to make this ASYNC functions
+        # todo because it will make the program more fast
         saveMetadata(editionCount, dna, images)
         createImage(imagesPath, editionCount)
         editionCount+=1 

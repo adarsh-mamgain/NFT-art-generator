@@ -6,25 +6,6 @@ baseImageUri = "http://localhost"
 
 editionSize = int(input("Enter the edition size: "))
 
-# ! Modify the code for multiple races
-raceWeights = [
-  {
-    "value": "mandalorian",
-    "from": 1,
-    "to": editionSize
-  },
-  # {
-  #   "value": "apes",
-  #   "from": 2,
-  #   "to": 4
-  # },
-  # {
-  #   "value": "human",
-  #   "from": 5,
-  #   "to": editionSize
-  # }
-]
-
 rarityWeights = {
   "original": {
     "rarity_id": 0,
