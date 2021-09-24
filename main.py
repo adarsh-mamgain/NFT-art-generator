@@ -1,6 +1,6 @@
 from PIL import Image
 import layers
-import random, datetime, json
+import random, datetime, json, os, shutil
 
 dnaList = []
 
@@ -33,7 +33,6 @@ def isDnaUnique(dnaId):
 def createDna(rarityWeights):
   randomDna = []
   elementList = []
-  rarityList = []
   layerList = []
   for layer in layers.races["mandalorian"]["layers"]:
     getAllImages = []
@@ -42,12 +41,11 @@ def createDna(rarityWeights):
       getAllImages.append(rare)
     element = random.choice(getAllImages)
     elementList.append(element)
-    rarityList.append(rarity)
     layerList.append(layer)
     randomDna.append(layers.races["mandalorian"]["layers"][layer]["layer_id"])
     randomDna.append(layers.races["mandalorian"]["layers"][layer]["elements"][rarity]["rarity_id"])
     randomDna.append(element["element_id"])
-  return elementList, rarityList, layerList, randomDna
+  return elementList, layerList, randomDna
 
 def createImage(imagesPath, editionCount):
   for path in imagesPath:
@@ -60,30 +58,35 @@ def createImage(imagesPath, editionCount):
   print("Built: ", editionCount)
 
 def clearMetadata():
+  if os.path.exists(layers.outputDirectory):
+    shutil.rmtree(layers.outputDirectory)
+  os.mkdir(layers.outputDirectory)
+  os.mkdir(layers.imagesDirectory)
+  os.mkdir(layers.metadataDirectory)
   data = []
-  with open('./output/metadata/_metadata.json', 'r+') as file:
+  with open('metadata.json', 'r+') as file:
     file.truncate()
     file.seek(0)
-    json.dump(data, file, indent = 2)
+    json.dump(data, file)
 
-# ! Create attributes
 # ! Finalize the Metadata type and requirements
 # ! Add IPFS image link
-# ! Create individual METADATA.JSON file (eg: 1.json 2.json 3.json)
 def saveMetadata(editionCount, dna, images):
   data = {
     "name": f"#{editionCount}",
-    "edition": editionCount,
     "dna": dna,
     "date": str(datetime.datetime.utcnow()),
     "description": layers.description,
-    "image": f"{layers.baseImageUri}/get/nft/#{editionCount}",
+    "image": f"{layers.baseImageUri}/{editionCount}.png",
     "attributes": []
   }
-  for i in images:
-    data['attributes'].append({i: images[i]})
+  for image in images:
+    data['attributes'].append(image)
     
-  with open('./output/metadata/_metadata.json', 'r+') as file:
+  with open(f"{layers.metadataDirectory}/{editionCount}.json", "w") as outfile:
+    json.dump(data, outfile, indent = 4)
+
+  with open('metadata.json', 'r+') as file:
     fileData = json.load(file)
     fileData.append(data)
     file.seek(0)
@@ -103,21 +106,19 @@ def main():
       if layers.rarityWeights[rare]["count"] > 0:
         break
 
-    elementList, rarityList, layerList, dnaId = createDna(layers.rarityWeights[rare]["list"])
+    elementList, layerList, dnaId = createDna(layers.rarityWeights[rare]["list"])
     dna = ''.join(map(str,dnaId))
     if isDnaUnique(dnaId):
       layers.rarityWeights[rare]["count"] -= 1
-      images = {}
+      images = []
       imagesPath = []
-      for selectedElement, selectedRarity, selectedLayer in zip(elementList, rarityList, layerList):
-        metadata = {"name": selectedElement["name"], "rarity": selectedRarity}
-        images[selectedLayer] = metadata
+      for selectedElement, selectedLayer in zip(elementList, layerList):
+        metadata = {"trait_type": selectedLayer, "value": selectedElement["name"]}
+        images.append(metadata)
         location = selectedElement["location"]
         imagesPath.append(location)
 
       try:
-        # todo Try to make this ASYNC functions
-        # todo because it will make the program more fast
         saveMetadata(editionCount, dna, images)
         createImage(imagesPath, editionCount)
         editionCount+=1 

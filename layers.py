@@ -1,6 +1,16 @@
 import pathlib
 
-directory = "./input"
+"""
+All input and output directories for the NFTs
+"""
+inputDirectory = "./input"
+outputDirectory = "./output"
+imagesDirectory = "./output/images"
+metadataDirectory = "./output/metadata"
+
+"""
+MetaData - attributes for the NFTs
+"""
 description = "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal"
 baseImageUri = "http://localhost"
 
@@ -53,15 +63,15 @@ races = {
         "elements": {
           "original": {
             "rarity_id": 0,
-            "list": getElement(f"{directory}/background/original")
+            "list": getElement(f"{inputDirectory}/background/original")
           },
           "rare":  {
             "rarity_id": 1,
-            "list": getElement(f"{directory}/background/rare")
+            "list": getElement(f"{inputDirectory}/background/rare")
           },
           "super_rare":  {
             "rarity_id": 2,
-            "list": getElement(f"{directory}/background/super_rare")
+            "list": getElement(f"{inputDirectory}/background/super_rare")
           }
         }
       },
@@ -70,15 +80,15 @@ races = {
         "elements": {
           "original": {
             "rarity_id": 0,
-            "list": getElement(f"{directory}/armour/original")
+            "list": getElement(f"{inputDirectory}/armour/original")
           },
           "rare":  {
             "rarity_id": 1,
-            "list": getElement(f"{directory}/armour/rare")
+            "list": getElement(f"{inputDirectory}/armour/rare")
           },
           "super_rare":  {
             "rarity_id": 2,
-            "list": getElement(f"{directory}/armour/super_rare")
+            "list": getElement(f"{inputDirectory}/armour/super_rare")
           }
         }
       },
@@ -87,15 +97,15 @@ races = {
         "elements": {
           "original": {
             "rarity_id": 0,
-            "list": getElement(f"{directory}/pattern/original")
+            "list": getElement(f"{inputDirectory}/pattern/original")
           },
           "rare":  {
             "rarity_id": 1,
-            "list": getElement(f"{directory}/pattern/rare")
+            "list": getElement(f"{inputDirectory}/pattern/rare")
           },
           "super_rare":  {
             "rarity_id": 2,
-            "list": getElement(f"{directory}/pattern/super_rare")
+            "list": getElement(f"{inputDirectory}/pattern/super_rare")
           }
         }
       },
@@ -104,15 +114,15 @@ races = {
         "elements": {
           "original": {
             "rarity_id": 0,
-            "list": getElement(f"{directory}/helmet/original")
+            "list": getElement(f"{inputDirectory}/helmet/original")
           },
           "rare":  {
             "rarity_id": 1,
-            "list": getElement(f"{directory}/helmet/rare")
+            "list": getElement(f"{inputDirectory}/helmet/rare")
           },
           "super_rare":  {
             "rarity_id": 2,
-            "list": getElement(f"{directory}/helmet/super_rare")
+            "list": getElement(f"{inputDirectory}/helmet/super_rare")
           }
         }
       },
@@ -121,15 +131,15 @@ races = {
         "elements": {
           "original": {
             "rarity_id": 0,
-            "list": getElement(f"{directory}/cheek/original")
+            "list": getElement(f"{inputDirectory}/cheek/original")
           },
           "rare":  {
             "rarity_id": 1,
-            "list": getElement(f"{directory}/cheek/rare")
+            "list": getElement(f"{inputDirectory}/cheek/rare")
           },
           "super_rare":  {
             "rarity_id": 2,
-            "list": getElement(f"{directory}/cheek/super_rare")
+            "list": getElement(f"{inputDirectory}/cheek/super_rare")
           }
         }
       }
