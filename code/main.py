@@ -70,7 +70,6 @@ def clearMetadata():
     json.dump(data, file)
 
 # ! Finalize the Metadata type and requirements
-# ! Add IPFS image link
 def saveMetadata(editionCount, dna, images):
   data = {
     "name": f"#{editionCount}",

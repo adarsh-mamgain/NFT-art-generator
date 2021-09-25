@@ -1,9 +1,9 @@
 {
     "name": "#886",
-    "dna": "A11B24C02D11E21",
-    "date": "2021-09-24 17:16:36.758944",
+    "dna": "A11B10C11D04E14",
+    "date": "2021-09-25 05:36:29.170776",
     "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
-    "image": "http://localhost/886.png",
+    "image": "ipfs://QmdvuRLAjd1FNPjK46tMGiRzPhjvmJagjmkK4tAYH43yYJ/886.png",
     "attributes": [
         {
             "trait_type": "background",
@@ -11,19 +11,19 @@
         },
         {
             "trait_type": "armour",
-            "value": "Grey"
+            "value": "Light blue"
         },
         {
             "trait_type": "pattern",
-            "value": "Chocolate"
+            "value": "Green"
         },
         {
             "trait_type": "helmet",
-            "value": "Dirt"
+            "value": "Green"
         },
         {
             "trait_type": "cheek",
-            "value": "blue"
+            "value": "Grey"
         }
     ]
 }

@@ -1,29 +1,29 @@
 {
     "name": "#888",
-    "dna": "A24B00C22D22E01",
-    "date": "2021-09-24 17:16:37.188800",
+    "dna": "A03B04C21D20E04",
+    "date": "2021-09-25 05:36:29.599373",
     "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
-    "image": "http://localhost/888.png",
+    "image": "ipfs://QmdvuRLAjd1FNPjK46tMGiRzPhjvmJagjmkK4tAYH43yYJ/888.png",
     "attributes": [
         {
             "trait_type": "background",
-            "value": "Magerita"
+            "value": "De York"
         },
         {
             "trait_type": "armour",
-            "value": "Blue"
+            "value": "Mustard"
         },
         {
             "trait_type": "pattern",
-            "value": "red"
+            "value": "orange"
         },
         {
             "trait_type": "helmet",
-            "value": "Tan"
+            "value": "pink"
         },
         {
             "trait_type": "cheek",
-            "value": "Skin"
+            "value": "Cream"
         }
     ]
 }

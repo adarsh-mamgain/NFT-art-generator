@@ -1,29 +1,29 @@
 {
     "name": "#360",
-    "dna": "A04B06C20D14E00",
-    "date": "2021-09-24 17:14:49.483926",
+    "dna": "A06B15C21D06E02",
+    "date": "2021-09-25 05:34:41.685688",
     "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
-    "image": "http://localhost/360.png",
+    "image": "ipfs://QmdvuRLAjd1FNPjK46tMGiRzPhjvmJagjmkK4tAYH43yYJ/360.png",
     "attributes": [
         {
             "trait_type": "background",
-            "value": "Olive"
+            "value": "white"
         },
         {
             "trait_type": "armour",
-            "value": "Cream"
+            "value": "purple"
         },
         {
             "trait_type": "pattern",
-            "value": "Yellow"
+            "value": "orange"
         },
         {
             "trait_type": "helmet",
-            "value": "Grey"
+            "value": "Brown"
         },
         {
             "trait_type": "cheek",
-            "value": "Dirt"
+            "value": "grey"
         }
     ]
 }

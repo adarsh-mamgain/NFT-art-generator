@@ -1,21 +1,21 @@
 {
     "name": "#333",
-    "dna": "A03B24C20D22E13",
-    "date": "2021-09-24 17:14:44.216605",
+    "dna": "A24B11C11D22E11",
+    "date": "2021-09-25 05:34:36.424571",
     "description": "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal",
-    "image": "http://localhost/333.png",
+    "image": "ipfs://QmdvuRLAjd1FNPjK46tMGiRzPhjvmJagjmkK4tAYH43yYJ/333.png",
     "attributes": [
         {
             "trait_type": "background",
-            "value": "De York"
+            "value": "Magerita"
         },
         {
             "trait_type": "armour",
-            "value": "Grey"
+            "value": "Pink"
         },
         {
             "trait_type": "pattern",
-            "value": "Yellow"
+            "value": "Green"
         },
         {
             "trait_type": "helmet",
@@ -23,7 +23,7 @@
         },
         {
             "trait_type": "cheek",
-            "value": "Skin"
+            "value": "Blue"
         }
     ]
 }

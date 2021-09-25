@@ -12,7 +12,7 @@ metadataDirectory = "./output/metadata"
 MetaData - attributes for the NFTs
 """
 description = "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal"
-baseImageUri = "http://localhost"
+baseImageUri = "ipfs://QmdvuRLAjd1FNPjK46tMGiRzPhjvmJagjmkK4tAYH43yYJ"
 
 editionSize = int(input("Enter the edition size: "))
 
