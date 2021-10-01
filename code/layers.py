@@ -1,38 +1,7 @@
+import config
 import pathlib
 
-"""
-All input and output directories for the NFTs
-"""
-inputDirectory = "./input"
-outputDirectory = "./output"
-imagesDirectory = "./output/images"
-metadataDirectory = "./output/metadata"
-
-"""
-MetaData - attributes for the NFTs
-"""
-description = "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal"
-baseImageUri = "ipfs://QmdvuRLAjd1FNPjK46tMGiRzPhjvmJagjmkK4tAYH43yYJ"
-
 editionSize = int(input("Enter the edition size: "))
-
-rarityWeights = {
-  "original": {
-    "rarity_id": 0,
-    "count": 50,
-    "list": ["original"]
-  },
-  "rare": {
-    "rarity_id": 1,
-    "count": 30,
-    "list": ["original", "rare"]
-  },
-  "super_rare": {
-    "rarity_id": 2,
-    "count": 20,
-    "list": ["original", "rare", "super_rare"]
-  }
-}
 
 def getElement(layerPath):
   counter = 0
@@ -63,15 +32,15 @@ races = {
         "elements": {
           "original": {
             "rarity_id": 0,
-            "list": getElement(f"{inputDirectory}/background/original")
+            "list": getElement(f"{config.inputDirectory}/background/original")
           },
           "rare":  {
             "rarity_id": 1,
-            "list": getElement(f"{inputDirectory}/background/rare")
+            "list": getElement(f"{config.inputDirectory}/background/rare")
           },
           "super_rare":  {
             "rarity_id": 2,
-            "list": getElement(f"{inputDirectory}/background/super_rare")
+            "list": getElement(f"{config.inputDirectory}/background/super_rare")
           }
         }
       },
@@ -80,15 +49,15 @@ races = {
         "elements": {
           "original": {
             "rarity_id": 0,
-            "list": getElement(f"{inputDirectory}/armour/original")
+            "list": getElement(f"{config.inputDirectory}/armour/original")
           },
           "rare":  {
             "rarity_id": 1,
-            "list": getElement(f"{inputDirectory}/armour/rare")
+            "list": getElement(f"{config.inputDirectory}/armour/rare")
           },
           "super_rare":  {
             "rarity_id": 2,
-            "list": getElement(f"{inputDirectory}/armour/super_rare")
+            "list": getElement(f"{config.inputDirectory}/armour/super_rare")
           }
         }
       },
@@ -97,15 +66,15 @@ races = {
         "elements": {
           "original": {
             "rarity_id": 0,
-            "list": getElement(f"{inputDirectory}/pattern/original")
+            "list": getElement(f"{config.inputDirectory}/pattern/original")
           },
           "rare":  {
             "rarity_id": 1,
-            "list": getElement(f"{inputDirectory}/pattern/rare")
+            "list": getElement(f"{config.inputDirectory}/pattern/rare")
           },
           "super_rare":  {
             "rarity_id": 2,
-            "list": getElement(f"{inputDirectory}/pattern/super_rare")
+            "list": getElement(f"{config.inputDirectory}/pattern/super_rare")
           }
         }
       },
@@ -114,15 +83,15 @@ races = {
         "elements": {
           "original": {
             "rarity_id": 0,
-            "list": getElement(f"{inputDirectory}/helmet/original")
+            "list": getElement(f"{config.inputDirectory}/helmet/original")
           },
           "rare":  {
             "rarity_id": 1,
-            "list": getElement(f"{inputDirectory}/helmet/rare")
+            "list": getElement(f"{config.inputDirectory}/helmet/rare")
           },
           "super_rare":  {
             "rarity_id": 2,
-            "list": getElement(f"{inputDirectory}/helmet/super_rare")
+            "list": getElement(f"{config.inputDirectory}/helmet/super_rare")
           }
         }
       },
@@ -131,15 +100,15 @@ races = {
         "elements": {
           "original": {
             "rarity_id": 0,
-            "list": getElement(f"{inputDirectory}/cheek/original")
+            "list": getElement(f"{config.inputDirectory}/cheek/original")
           },
           "rare":  {
             "rarity_id": 1,
-            "list": getElement(f"{inputDirectory}/cheek/rare")
+            "list": getElement(f"{config.inputDirectory}/cheek/rare")
           },
           "super_rare":  {
             "rarity_id": 2,
-            "list": getElement(f"{inputDirectory}/cheek/super_rare")
+            "list": getElement(f"{config.inputDirectory}/cheek/super_rare")
           }
         }
       }

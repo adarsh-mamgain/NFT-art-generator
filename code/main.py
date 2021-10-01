@@ -1,5 +1,5 @@
 from PIL import Image
-import layers
+import layers, config
 import random, datetime, json, os, shutil
 
 dnaList = []
@@ -10,16 +10,16 @@ def getRarity():
   rarityPercent = list(map(int, input("Enter rarity percent ↓↓↓\n(Original, Rare, Super rare): ").split()))
   if not rarityPercent:
     print("No input provided, default rarity percent is used Original: 50 Rare: 30 Super rare: 20")
-    for i in layers.rarityWeights:
-      rarityPercent.append(layers.rarityWeights[i]["count"])
+    for i in config.rarityWeights:
+      rarityPercent.append(config.rarityWeights[i]["count"])
   for i in rarityPercent:
     sum += i
-  if len(rarityPercent) == len(list(dict(layers.rarityWeights))) and sum == 100:
-    for i,j in zip(layers.rarityWeights, rarityPercent):
-      layers.rarityWeights[i]["count"] = int(layers.editionSize*j/100)
+  if len(rarityPercent) == len(list(dict(config.rarityWeights))) and sum == 100:
+    for i,j in zip(config.rarityWeights, rarityPercent):
+      config.rarityWeights[i]["count"] = int(layers.editionSize*j/100)
     if layers.editionSize % 2 != 0:
-      layers.rarityWeights["original"]["count"] += 1
-    return layers.rarityWeights
+      config.rarityWeights["original"]["count"] += 1
+    return config.rarityWeights
   else:
     getRarity()
 
@@ -58,11 +58,11 @@ def createImage(imagesPath, editionCount):
   print("Built: ", editionCount)
 
 def clearMetadata():
-  if os.path.exists(layers.outputDirectory):
-    shutil.rmtree(layers.outputDirectory)
-  os.mkdir(layers.outputDirectory)
-  os.mkdir(layers.imagesDirectory)
-  os.mkdir(layers.metadataDirectory)
+  if os.path.exists(config.outputDirectory):
+    shutil.rmtree(config.outputDirectory)
+  os.mkdir(config.outputDirectory)
+  os.mkdir(config.imagesDirectory)
+  os.mkdir(config.metadataDirectory)
   data = []
   with open('metadata.json', 'r+') as file:
     file.truncate()
@@ -75,14 +75,14 @@ def saveMetadata(editionCount, dna, images):
     "name": f"#{editionCount}",
     "dna": dna,
     "date": str(datetime.datetime.utcnow()),
-    "description": layers.description,
-    "image": f"{layers.baseImageUri}/{editionCount}.png",
+    "description": config.description,
+    "image": f"{config.baseImageUri}/{editionCount}.png",
     "attributes": []
   }
   for image in images:
     data['attributes'].append(image)
     
-  with open(f"{layers.metadataDirectory}/{editionCount}.json", "w") as outfile:
+  with open(f"{config.metadataDirectory}/{editionCount}.json", "w") as outfile:
     json.dump(data, outfile, indent = 4)
 
   with open('metadata.json', 'r+') as file:
@@ -101,11 +101,11 @@ def main():
   clearMetadata()
   while editionCount <= layers.editionSize:
     while True:
-      rare = random.choice(list(layers.rarityWeights))
-      if layers.rarityWeights[rare]["count"] > 0:
+      rare = random.choice(list(config.rarityWeights))
+      if config.rarityWeights[rare]["count"] > 0:
         break
 
-    elementList, layerList, dnaId = createDna(layers.rarityWeights[rare]["list"])
+    elementList, layerList, dnaId = createDna(config.rarityWeights[rare]["list"])
     dna = ''.join(map(str,dnaId))
     if isDnaUnique(dnaId):
       layers.rarityWeights[rare]["count"] -= 1
