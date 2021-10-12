@@ -1,130 +1,160 @@
+"""
+This is the main module to create NFTs. Run 'python3 main.py' command to generate NFTs
+"""
+
+import random
+import datetime
+import json
+import os
+import shutil
+import hashlib
 from PIL import Image
-import layers, config
-import random, datetime, json, os, shutil
+import layers
+import config
 
 dnaList = []
 
-def getRarity():
-  sum = 0
-  rarityPercent = []
-  rarityPercent = list(map(int, input("Enter rarity percent ↓↓↓\n(Original, Rare, Super rare): ").split()))
-  if not rarityPercent:
-    print("No input provided, default rarity percent is used Original: 50 Rare: 30 Super rare: 20")
-    for i in config.rarityWeights:
-      rarityPercent.append(config.rarityWeights[i]["count"])
-  for i in rarityPercent:
-    sum += i
-  if len(rarityPercent) == len(list(dict(config.rarityWeights))) and sum == 100:
-    for i,j in zip(config.rarityWeights, rarityPercent):
-      config.rarityWeights[i]["count"] = int(layers.editionSize*j/100)
-    if layers.editionSize % 2 != 0:
-      config.rarityWeights["original"]["count"] += 1
-    return config.rarityWeights
-  else:
-    getRarity()
 
-def isDnaUnique(dnaId):
-  dna = ''.join(map(str,dnaId))
-  if dna in dnaList:
-    return False
-  dnaList.append(dna)
-  return True
+def get_rarity():
+    """Generates the NFTs rarity"""
+    total_sum = 0
+    rarity_percent = []
+    rarity_percent = list(map(int, input("Enter rarity percent ↓↓↓\n(Original, Rare, Super rare): ").split()))
+    if not rarity_percent:
+        print("No input provided, default rarity percent is used Original: 50 Rare: 30 Super rare: 20")
+        for i in config.rarity_weights:
+            rarity_percent.append(config.rarity_weights[i]["count"])
+    for i in rarity_percent:
+        total_sum += i
+    if (len(rarity_percent) == len(list(dict(config.rarity_weights)))and total_sum == 100):
+        for i, j in zip(config.rarity_weights, rarity_percent):
+            config.rarity_weights[i]["count"] = int(layers.editionSize * j / 100)
+        if layers.editionSize % 2 != 0:
+            config.rarity_weights["original"]["count"] += 1
+        return config.rarity_weights
+    else:
+        print("RERUN")
+        return get_rarity()
 
-def createDna(rarityWeights):
-  randomDna = []
-  elementList = []
-  layerList = []
-  for layer in layers.races["mandalorian"]["layers"]:
-    getAllImages = []
-    rarity = random.choice(rarityWeights)
-    for rare in layers.races["mandalorian"]["layers"][layer]["elements"][rarity]["list"]:
-      getAllImages.append(rare)
-    element = random.choice(getAllImages)
-    elementList.append(element)
-    layerList.append(layer)
-    randomDna.append(layers.races["mandalorian"]["layers"][layer]["layer_id"])
-    randomDna.append(layers.races["mandalorian"]["layers"][layer]["elements"][rarity]["rarity_id"])
-    randomDna.append(element["element_id"])
-  return elementList, layerList, randomDna
 
-def createImage(imagesPath, editionCount):
-  for path in imagesPath:
-    try:
-      background = Image.open(f'./output/images/{editionCount}.png')
-      foreground = Image.open(path)
-      Image.alpha_composite(background.convert('RGBA'), foreground.convert('RGBA')).save(f'./output/images/{editionCount}.png')
-    except:
-      background = Image.open(path).convert('RGBA').save(f'./output/images/{editionCount}.png')
-  print("Built: ", editionCount)
+def is_dna_unique(_dna_id):
+    """Checks if the DNA is unique"""
+    dna = "".join(map(str, _dna_id))
+    if dna in dnaList:
+        return False
+    dnaList.append(dna)
+    return True
 
-def clearMetadata():
-  if os.path.exists(config.outputDirectory):
-    shutil.rmtree(config.outputDirectory)
-  os.mkdir(config.outputDirectory)
-  os.mkdir(config.imagesDirectory)
-  os.mkdir(config.metadataDirectory)
-  data = []
-  with open('metadata.json', 'r+') as file:
-    file.truncate()
-    file.seek(0)
-    json.dump(data, file)
+
+def create_dna(_rarity_weights):
+    """Generates the NFTs DNA"""
+    random_dna = []
+    element_list = []
+    layer_list = []
+    for layer in layers.races["mandalorian"]["layers"]:
+        get_all_images = []
+        rarity = random.choice(_rarity_weights)
+        for rare in layers.races["mandalorian"]["layers"][layer]["elements"][rarity]["list"]:
+            get_all_images.append(rare)
+        element = random.choice(get_all_images)
+        element_list.append(element)
+        layer_list.append(layer)
+        random_dna.append(layers.races["mandalorian"]["layers"][layer]["layer_id"])
+        random_dna.append(layers.races["mandalorian"]["layers"][layer]["elements"][rarity]["rarity_id"])
+        random_dna.append(element["element_id"])
+    return element_list, layer_list, random_dna
+
+
+def create_image(_images_path, _edition_count):
+    """Creates the NFT images"""
+    for path in _images_path:
+        try:
+            background = Image.open(f"{config.IMAGES_DIRECTORY}/{_edition_count}.png")
+            foreground = Image.open(path)
+            Image.alpha_composite(background.convert("RGBA"), foreground.convert("RGBA")).save(f"{config.IMAGES_DIRECTORY}/{_edition_count}.png")
+        except FileNotFoundError:
+            background = (Image.open(path).convert("RGBA").save(f"{config.IMAGES_DIRECTORY}/{_edition_count}.png"))
+    print("Built: ", _edition_count)
+
+
+def clear_metadata():
+    """Deletes the 'build' directory and all of it's content + metadata.json"""
+    if os.path.exists(config.OUTPUT_DIRECTORY):
+        shutil.rmtree(config.OUTPUT_DIRECTORY)
+    os.mkdir(config.OUTPUT_DIRECTORY)
+    os.mkdir(config.IMAGES_DIRECTORY)
+    os.mkdir(config.METADATA_DIRECTORY)
+    data = []
+    with open("metadata.json", "r+", encoding="utf-8") as file:
+        file.truncate()
+        file.seek(0)
+        json.dump(data, file)
+
 
 # ! Finalize the Metadata type and requirements
-def saveMetadata(editionCount, dna, images):
-  data = {
-    "name": f"#{editionCount}",
-    "dna": dna,
-    "date": str(datetime.datetime.utcnow()),
-    "description": config.description,
-    "image": f"{config.baseImageUri}/{editionCount}.png",
-    "attributes": []
-  }
-  for image in images:
-    data['attributes'].append(image)
-    
-  with open(f"{config.metadataDirectory}/{editionCount}.json", "w") as outfile:
-    json.dump(data, outfile, indent = 4)
+def save_metadata(_edition_count, _dna, images):
+    """This function creates the required json files and saves the metadata"""
+    data = {
+        "name": f"#{_edition_count}",
+        "dna": _dna,
+        "dnaHash": hashlib.sha1(_dna.encode()).hexdigest().upper(),
+        "date": str(datetime.datetime.utcnow()),
+        "description": config.DESCRIPTION,
+        "image": f"{config.BASE_IMAGE_URI}/{_edition_count}.png",
+        "attributes": [],
+    }
+    for image in images:
+        data["attributes"].append(image)
 
-  with open('metadata.json', 'r+') as file:
-    fileData = json.load(file)
-    fileData.append(data)
-    file.seek(0)
-    json.dump(fileData, file)
-  return data
+    with open(f"{config.METADATA_DIRECTORY}/{_edition_count}.json", "w", encoding="utf-8") as outfile:
+        json.dump(data, outfile, indent=4)
+
+    with open("metadata.json", "r+", encoding="utf-8") as file:
+        file_data = json.load(file)
+        file_data.append(data)
+        file.seek(0)
+        json.dump(file_data, file)
+    return data
+
 
 # ! CREATE SMART CONTRACTS
 def main():
-  getRarity()
-  editionCount = 1
-  print("Edition size: ", layers.editionSize)
-  print("Creating your NFTs ...")
-  clearMetadata()
-  while editionCount <= layers.editionSize:
-    while True:
-      rare = random.choice(list(config.rarityWeights))
-      if config.rarityWeights[rare]["count"] > 0:
-        break
+    """The main function of the program for creating the required NFTs"""
+    get_rarity()
+    edition_count = 1
+    print("Edition size: ", layers.editionSize)
+    print("Creating your NFTs ...")
+    clear_metadata()
+    while edition_count <= layers.editionSize:
+        while True:
+            rare = random.choice(list(config.rarity_weights))
+            if config.rarity_weights[rare]["count"] > 0:
+                break
 
-    elementList, layerList, dnaId = createDna(config.rarityWeights[rare]["list"])
-    dna = ''.join(map(str,dnaId))
-    if isDnaUnique(dnaId):
-      layers.rarityWeights[rare]["count"] -= 1
-      images = []
-      imagesPath = []
-      for selectedElement, selectedLayer in zip(elementList, layerList):
-        metadata = {"trait_type": selectedLayer, "value": selectedElement["name"]}
-        images.append(metadata)
-        location = selectedElement["location"]
-        imagesPath.append(location)
+        element_list, layer_list, dna_id = create_dna(config.rarity_weights[rare]["list"])
+        dna = "".join(map(str, dna_id))
+        if is_dna_unique(dna_id):
+            config.rarity_weights[rare]["count"] -= 1
+            images = []
+            images_path = []
+            for selected_element, selected_layer in zip(element_list, layer_list):
+                metadata = {
+                    "trait_type": selected_layer,
+                    "value": selected_element["name"],
+                }
+                images.append(metadata)
+                location = selected_element["location"]
+                images_path.append(location)
 
-      try:
-        saveMetadata(editionCount, dna, images)
-        createImage(imagesPath, editionCount)
-        editionCount+=1 
-      except:
-        raise NotImplementedError("SaveMetadata or CreateImage is not working :(")
-    else:
-      print('DNA exists: ',dna)
+            try:
+                save_metadata(edition_count, dna, images)
+                create_image(images_path, edition_count)
+                edition_count += 1
+            except RuntimeError:
+                print("Save_metadata or Create_image is not working :(")
+        else:
+            print("DNA exists: ", dna)
+
 
 if __name__ == "__main__":
-  main()
+    main()
