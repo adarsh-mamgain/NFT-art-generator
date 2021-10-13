@@ -9,8 +9,8 @@ METADATA_DIRECTORY = "./build/metadata"
 """
 MetaData - attributes for the NFTs
 """
-DESCRIPTION = "This is a test NFT project created by https://instagram.com/_adarsh_mamgain_ and https://instagram.com/shifali_amembal"
-BASE_IMAGE_URI = "ipfs://QmdvuRLAjd1FNPjK46tMGiRzPhjvmJagjmkK4tAYH43yYJ"
+DESCRIPTION = "CHANGE_THIS"
+BASE_IMAGE_URI = "ipfs://CHANGE_THIS"
 
 rarity_weights = {
     "original": {

@@ -77,7 +77,7 @@ def create_image(_images_path, _edition_count):
     print("Built: ", _edition_count)
 
 
-def clear_metadata():
+def clear_data():
     """Deletes the 'build' directory and all of it's content + metadata.json"""
     if os.path.exists(config.OUTPUT_DIRECTORY):
         shutil.rmtree(config.OUTPUT_DIRECTORY)
@@ -124,7 +124,7 @@ def main():
     edition_count = 1
     print("Edition size: ", layers.editionSize)
     print("Creating your NFTs ...")
-    clear_metadata()
+    clear_data()
     while edition_count <= layers.editionSize:
         while True:
             rare = random.choice(list(config.rarity_weights))

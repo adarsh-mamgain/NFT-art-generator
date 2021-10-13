@@ -11,6 +11,7 @@ def main():
         data = json.load(meta_file)
         for edition in data:
             edition["image"] = f"{config.BASE_IMAGE_URI}/{edition_count}.png"
+            edition["description"] = f"{config.DESCRIPTION}"
             edition_count += 1
         meta_file.seek(0)
         meta_file.truncate()
@@ -21,6 +22,7 @@ def main():
         with open(f"{config.METADATA_DIRECTORY}/{edition_count}.json", "r+", encoding="utf-8") as file:
             json_data = json.load(file)
             json_data["image"] = f"{config.BASE_IMAGE_URI}/{edition_count}.png"
+            json_data["description"] = f"{config.DESCRIPTION}"
             file.seek(0)
             file.truncate()
             json.dump(json_data, file, indent=4)
