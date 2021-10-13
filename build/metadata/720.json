@@ -1,0 +1,30 @@
+{
+    "name": "#720",
+    "dna": "A00B01C22D24E00",
+    "dnaHash": "B4B3A1D299D7ABCF22DEA2CDC1BAFE34F3A65C31",
+    "date": "2021-10-13 15:30:12.575744",
+    "description": "CHANGE_THIS",
+    "image": "ipfs://CHANGE_THIS/720.png",
+    "attributes": [
+        {
+            "trait_type": "background",
+            "value": "Bazaar"
+        },
+        {
+            "trait_type": "armour",
+            "value": "Violet"
+        },
+        {
+            "trait_type": "pattern",
+            "value": "red"
+        },
+        {
+            "trait_type": "helmet",
+            "value": "Red"
+        },
+        {
+            "trait_type": "cheek",
+            "value": "Dirt"
+        }
+    ]
+}

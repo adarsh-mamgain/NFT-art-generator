@@ -1,0 +1,30 @@
+{
+    "name": "#933",
+    "dna": "A21B00C00D22E14",
+    "dnaHash": "40773D94A05E551B7A7B2A4D1E8B17C75F14B30D",
+    "date": "2021-10-13 15:30:59.689482",
+    "description": "CHANGE_THIS",
+    "image": "ipfs://CHANGE_THIS/933.png",
+    "attributes": [
+        {
+            "trait_type": "background",
+            "value": "Pink"
+        },
+        {
+            "trait_type": "armour",
+            "value": "Blue"
+        },
+        {
+            "trait_type": "pattern",
+            "value": "Pink"
+        },
+        {
+            "trait_type": "helmet",
+            "value": "Tan"
+        },
+        {
+            "trait_type": "cheek",
+            "value": "Grey"
+        }
+    ]
+}

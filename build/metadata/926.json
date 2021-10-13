@@ -1,0 +1,30 @@
+{
+    "name": "#926",
+    "dna": "A24B06C00D22E23",
+    "dnaHash": "E90252B50868F78FB1858F0BC1FAF2325B535BB5",
+    "date": "2021-10-13 15:30:58.109685",
+    "description": "CHANGE_THIS",
+    "image": "ipfs://CHANGE_THIS/926.png",
+    "attributes": [
+        {
+            "trait_type": "background",
+            "value": "Magerita"
+        },
+        {
+            "trait_type": "armour",
+            "value": "Cream"
+        },
+        {
+            "trait_type": "pattern",
+            "value": "Pink"
+        },
+        {
+            "trait_type": "helmet",
+            "value": "Tan"
+        },
+        {
+            "trait_type": "cheek",
+            "value": "Green"
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "name": "#126",
+    "dna": "A23B21C21D21E24",
+    "dnaHash": "336BA96F300E3E51254355264E5AAAC85E69EA76",
+    "date": "2021-10-13 15:28:11.968641",
+    "description": "CHANGE_THIS",
+    "image": "ipfs://CHANGE_THIS/126.png",
+    "attributes": [
+        {
+            "trait_type": "background",
+            "value": "Turquoise"
+        },
+        {
+            "trait_type": "armour",
+            "value": "Pink"
+        },
+        {
+            "trait_type": "pattern",
+            "value": "orange"
+        },
+        {
+            "trait_type": "helmet",
+            "value": "Blue"
+        },
+        {
+            "trait_type": "cheek",
+            "value": "Red"
+        }
+    ]
+}

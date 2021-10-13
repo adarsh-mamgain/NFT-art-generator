@@ -1,0 +1,30 @@
+{
+    "name": "#398",
+    "dna": "A14B06C20D24E22",
+    "dnaHash": "EBC0A89FE6A07D062F297343EF12125C7589299D",
+    "date": "2021-10-13 15:29:04.835403",
+    "description": "CHANGE_THIS",
+    "image": "ipfs://CHANGE_THIS/398.png",
+    "attributes": [
+        {
+            "trait_type": "background",
+            "value": "Brown"
+        },
+        {
+            "trait_type": "armour",
+            "value": "Cream"
+        },
+        {
+            "trait_type": "pattern",
+            "value": "Yellow"
+        },
+        {
+            "trait_type": "helmet",
+            "value": "Red"
+        },
+        {
+            "trait_type": "cheek",
+            "value": "orange"
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "name": "#845",
+    "dna": "A06B23C11D13E05",
+    "dnaHash": "8BE41664EC73E673E59FAF6DBE3E8F039E7FBA6F",
+    "date": "2021-10-13 15:30:39.901817",
+    "description": "CHANGE_THIS",
+    "image": "ipfs://CHANGE_THIS/845.png",
+    "attributes": [
+        {
+            "trait_type": "background",
+            "value": "white"
+        },
+        {
+            "trait_type": "armour",
+            "value": "Green"
+        },
+        {
+            "trait_type": "pattern",
+            "value": "Green"
+        },
+        {
+            "trait_type": "helmet",
+            "value": "blue"
+        },
+        {
+            "trait_type": "cheek",
+            "value": "Space grey"
+        }
+    ]
+}

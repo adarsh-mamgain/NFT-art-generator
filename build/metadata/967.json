@@ -1,0 +1,30 @@
+{
+    "name": "#967",
+    "dna": "A02B20C20D11E23",
+    "dnaHash": "3A00A20B242672AF74512F82CC7D2CBE2DB11183",
+    "date": "2021-10-13 15:31:07.428247",
+    "description": "CHANGE_THIS",
+    "image": "ipfs://CHANGE_THIS/967.png",
+    "attributes": [
+        {
+            "trait_type": "background",
+            "value": "Blue"
+        },
+        {
+            "trait_type": "armour",
+            "value": "Dark blue"
+        },
+        {
+            "trait_type": "pattern",
+            "value": "Yellow"
+        },
+        {
+            "trait_type": "helmet",
+            "value": "Dirt"
+        },
+        {
+            "trait_type": "cheek",
+            "value": "Green"
+        }
+    ]
+}

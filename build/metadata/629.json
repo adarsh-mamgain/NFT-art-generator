@@ -1,0 +1,30 @@
+{
+    "name": "#629",
+    "dna": "A02B10C01D05E14",
+    "dnaHash": "34FC7C196B35B8BC85651C70CD081F8E892AAF83",
+    "date": "2021-10-13 15:29:52.977277",
+    "description": "CHANGE_THIS",
+    "image": "ipfs://CHANGE_THIS/629.png",
+    "attributes": [
+        {
+            "trait_type": "background",
+            "value": "Blue"
+        },
+        {
+            "trait_type": "armour",
+            "value": "Light blue"
+        },
+        {
+            "trait_type": "pattern",
+            "value": "white"
+        },
+        {
+            "trait_type": "helmet",
+            "value": "green cryola"
+        },
+        {
+            "trait_type": "cheek",
+            "value": "Grey"
+        }
+    ]
+}

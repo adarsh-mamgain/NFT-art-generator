@@ -1,0 +1,30 @@
+{
+    "name": "#485",
+    "dna": "A22B24C22D24E22",
+    "dnaHash": "22FBD0B2F1C62432D9F4E58FCC7BA819ABC903CC",
+    "date": "2021-10-13 15:29:22.554441",
+    "description": "CHANGE_THIS",
+    "image": "ipfs://CHANGE_THIS/485.png",
+    "attributes": [
+        {
+            "trait_type": "background",
+            "value": "Green"
+        },
+        {
+            "trait_type": "armour",
+            "value": "Grey"
+        },
+        {
+            "trait_type": "pattern",
+            "value": "red"
+        },
+        {
+            "trait_type": "helmet",
+            "value": "Red"
+        },
+        {
+            "trait_type": "cheek",
+            "value": "orange"
+        }
+    ]
+}

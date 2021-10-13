@@ -1,0 +1,30 @@
+{
+    "name": "#995",
+    "dna": "A06B01C21D21E21",
+    "dnaHash": "A3A064F5F65A012A695E444C0C388953BF7B32A6",
+    "date": "2021-10-13 15:31:13.729751",
+    "description": "CHANGE_THIS",
+    "image": "ipfs://CHANGE_THIS/995.png",
+    "attributes": [
+        {
+            "trait_type": "background",
+            "value": "white"
+        },
+        {
+            "trait_type": "armour",
+            "value": "Violet"
+        },
+        {
+            "trait_type": "pattern",
+            "value": "orange"
+        },
+        {
+            "trait_type": "helmet",
+            "value": "Blue"
+        },
+        {
+            "trait_type": "cheek",
+            "value": "blue"
+        }
+    ]
+}

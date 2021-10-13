@@ -1,0 +1,30 @@
+{
+    "name": "#50",
+    "dna": "A24B20C02D05E13",
+    "dnaHash": "95A1586509189FF1AF18BDFEE408F8C9E244CFB3",
+    "date": "2021-10-13 15:27:57.637303",
+    "description": "CHANGE_THIS",
+    "image": "ipfs://CHANGE_THIS/50.png",
+    "attributes": [
+        {
+            "trait_type": "background",
+            "value": "Magerita"
+        },
+        {
+            "trait_type": "armour",
+            "value": "Dark blue"
+        },
+        {
+            "trait_type": "pattern",
+            "value": "Chocolate"
+        },
+        {
+            "trait_type": "helmet",
+            "value": "green cryola"
+        },
+        {
+            "trait_type": "cheek",
+            "value": "Skin"
+        }
+    ]
+}

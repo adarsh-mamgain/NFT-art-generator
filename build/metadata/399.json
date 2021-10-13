@@ -1,0 +1,30 @@
+{
+    "name": "#399",
+    "dna": "A03B00C02D24E13",
+    "dnaHash": "6F097C840F1B8917C2CF8F1D5AC0C72011C51D87",
+    "date": "2021-10-13 15:29:05.029040",
+    "description": "CHANGE_THIS",
+    "image": "ipfs://CHANGE_THIS/399.png",
+    "attributes": [
+        {
+            "trait_type": "background",
+            "value": "De York"
+        },
+        {
+            "trait_type": "armour",
+            "value": "Blue"
+        },
+        {
+            "trait_type": "pattern",
+            "value": "Chocolate"
+        },
+        {
+            "trait_type": "helmet",
+            "value": "Red"
+        },
+        {
+            "trait_type": "cheek",
+            "value": "Skin"
+        }
+    ]
+}

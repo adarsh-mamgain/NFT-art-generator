@@ -1,0 +1,30 @@
+{
+    "name": "#588",
+    "dna": "A00B10C12D24E22",
+    "dnaHash": "123D90339D9AC5B1AD8A190DE2CA0D8C7812DCD7",
+    "date": "2021-10-13 15:29:44.232582",
+    "description": "CHANGE_THIS",
+    "image": "ipfs://CHANGE_THIS/588.png",
+    "attributes": [
+        {
+            "trait_type": "background",
+            "value": "Bazaar"
+        },
+        {
+            "trait_type": "armour",
+            "value": "Light blue"
+        },
+        {
+            "trait_type": "pattern",
+            "value": "brown"
+        },
+        {
+            "trait_type": "helmet",
+            "value": "Red"
+        },
+        {
+            "trait_type": "cheek",
+            "value": "orange"
+        }
+    ]
+}

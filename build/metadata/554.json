@@ -1,0 +1,30 @@
+{
+    "name": "#554",
+    "dna": "A10B20C00D14E02",
+    "dnaHash": "87AC93FA063978AAC2CB88017DD6AE58912B8A92",
+    "date": "2021-10-13 15:29:37.025910",
+    "description": "CHANGE_THIS",
+    "image": "ipfs://CHANGE_THIS/554.png",
+    "attributes": [
+        {
+            "trait_type": "background",
+            "value": "Gray"
+        },
+        {
+            "trait_type": "armour",
+            "value": "Dark blue"
+        },
+        {
+            "trait_type": "pattern",
+            "value": "Pink"
+        },
+        {
+            "trait_type": "helmet",
+            "value": "Grey"
+        },
+        {
+            "trait_type": "cheek",
+            "value": "grey"
+        }
+    ]
+}

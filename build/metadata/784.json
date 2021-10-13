@@ -1,0 +1,30 @@
+{
+    "name": "#784",
+    "dna": "A05B04C02D23E22",
+    "dnaHash": "10E5AD10B3454452BD302BC93EDF6112040A1E1F",
+    "date": "2021-10-13 15:30:26.529143",
+    "description": "CHANGE_THIS",
+    "image": "ipfs://CHANGE_THIS/784.png",
+    "attributes": [
+        {
+            "trait_type": "background",
+            "value": "Grey"
+        },
+        {
+            "trait_type": "armour",
+            "value": "Mustard"
+        },
+        {
+            "trait_type": "pattern",
+            "value": "Chocolate"
+        },
+        {
+            "trait_type": "helmet",
+            "value": "White"
+        },
+        {
+            "trait_type": "cheek",
+            "value": "orange"
+        }
+    ]
+}

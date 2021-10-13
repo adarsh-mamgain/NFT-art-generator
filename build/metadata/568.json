@@ -1,0 +1,30 @@
+{
+    "name": "#568",
+    "dna": "A12B22C01D05E24",
+    "dnaHash": "A89E4773FEE3A71CE5A304730BD7C72F8F0D3D17",
+    "date": "2021-10-13 15:29:39.987194",
+    "description": "CHANGE_THIS",
+    "image": "ipfs://CHANGE_THIS/568.png",
+    "attributes": [
+        {
+            "trait_type": "background",
+            "value": "Violet"
+        },
+        {
+            "trait_type": "armour",
+            "value": "Violet"
+        },
+        {
+            "trait_type": "pattern",
+            "value": "white"
+        },
+        {
+            "trait_type": "helmet",
+            "value": "green cryola"
+        },
+        {
+            "trait_type": "cheek",
+            "value": "Red"
+        }
+    ]
+}

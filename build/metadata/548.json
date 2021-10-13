@@ -1,0 +1,30 @@
+{
+    "name": "#548",
+    "dna": "A24B10C00D23E06",
+    "dnaHash": "AA447C57ECB38B5C493C6668299BA2F31DFEF40E",
+    "date": "2021-10-13 15:29:35.745600",
+    "description": "CHANGE_THIS",
+    "image": "ipfs://CHANGE_THIS/548.png",
+    "attributes": [
+        {
+            "trait_type": "background",
+            "value": "Magerita"
+        },
+        {
+            "trait_type": "armour",
+            "value": "Light blue"
+        },
+        {
+            "trait_type": "pattern",
+            "value": "Pink"
+        },
+        {
+            "trait_type": "helmet",
+            "value": "White"
+        },
+        {
+            "trait_type": "cheek",
+            "value": "white"
+        }
+    ]
+}

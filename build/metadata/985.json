@@ -1,0 +1,30 @@
+{
+    "name": "#985",
+    "dna": "A13B02C11D22E22",
+    "dnaHash": "E9663338ABE34B27995E3CB1C4C51C9C6B50B437",
+    "date": "2021-10-13 15:31:11.512281",
+    "description": "CHANGE_THIS",
+    "image": "ipfs://CHANGE_THIS/985.png",
+    "attributes": [
+        {
+            "trait_type": "background",
+            "value": "Skin"
+        },
+        {
+            "trait_type": "armour",
+            "value": "Olive"
+        },
+        {
+            "trait_type": "pattern",
+            "value": "Green"
+        },
+        {
+            "trait_type": "helmet",
+            "value": "Tan"
+        },
+        {
+            "trait_type": "cheek",
+            "value": "orange"
+        }
+    ]
+}

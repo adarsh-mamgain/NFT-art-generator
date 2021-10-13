@@ -1,0 +1,30 @@
+{
+    "name": "#469",
+    "dna": "A12B15C00D11E20",
+    "dnaHash": "CC97EE4DC84019C699C3C0A6130B231536A1BAB8",
+    "date": "2021-10-13 15:29:19.231069",
+    "description": "CHANGE_THIS",
+    "image": "ipfs://CHANGE_THIS/469.png",
+    "attributes": [
+        {
+            "trait_type": "background",
+            "value": "Violet"
+        },
+        {
+            "trait_type": "armour",
+            "value": "purple"
+        },
+        {
+            "trait_type": "pattern",
+            "value": "Pink"
+        },
+        {
+            "trait_type": "helmet",
+            "value": "Dirt"
+        },
+        {
+            "trait_type": "cheek",
+            "value": "Pink"
+        }
+    ]
+}

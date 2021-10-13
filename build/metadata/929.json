@@ -1,0 +1,30 @@
+{
+    "name": "#929",
+    "dna": "A24B12C02D21E02",
+    "dnaHash": "CFB9A5E59E731079DCEDBA2E30909A13863022F4",
+    "date": "2021-10-13 15:30:58.792510",
+    "description": "CHANGE_THIS",
+    "image": "ipfs://CHANGE_THIS/929.png",
+    "attributes": [
+        {
+            "trait_type": "background",
+            "value": "Magerita"
+        },
+        {
+            "trait_type": "armour",
+            "value": "Blue"
+        },
+        {
+            "trait_type": "pattern",
+            "value": "Chocolate"
+        },
+        {
+            "trait_type": "helmet",
+            "value": "Blue"
+        },
+        {
+            "trait_type": "cheek",
+            "value": "grey"
+        }
+    ]
+}

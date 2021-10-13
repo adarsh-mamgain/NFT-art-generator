@@ -1,0 +1,30 @@
+{
+    "name": "#169",
+    "dna": "A24B00C22D21E13",
+    "dnaHash": "0D04D77AE6C911C385DC3BBED83866270950B90A",
+    "date": "2021-10-13 15:28:20.096803",
+    "description": "CHANGE_THIS",
+    "image": "ipfs://CHANGE_THIS/169.png",
+    "attributes": [
+        {
+            "trait_type": "background",
+            "value": "Magerita"
+        },
+        {
+            "trait_type": "armour",
+            "value": "Blue"
+        },
+        {
+            "trait_type": "pattern",
+            "value": "red"
+        },
+        {
+            "trait_type": "helmet",
+            "value": "Blue"
+        },
+        {
+            "trait_type": "cheek",
+            "value": "Skin"
+        }
+    ]
+}

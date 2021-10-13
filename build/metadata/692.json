@@ -1,0 +1,30 @@
+{
+    "name": "#692",
+    "dna": "A15B06C12D06E06",
+    "dnaHash": "2ABC764E33BD549D509EE3B5133208CE6BDDB2F0",
+    "date": "2021-10-13 15:30:06.497354",
+    "description": "CHANGE_THIS",
+    "image": "ipfs://CHANGE_THIS/692.png",
+    "attributes": [
+        {
+            "trait_type": "background",
+            "value": "Red"
+        },
+        {
+            "trait_type": "armour",
+            "value": "Cream"
+        },
+        {
+            "trait_type": "pattern",
+            "value": "brown"
+        },
+        {
+            "trait_type": "helmet",
+            "value": "Brown"
+        },
+        {
+            "trait_type": "cheek",
+            "value": "white"
+        }
+    ]
+}

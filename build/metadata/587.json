@@ -1,0 +1,30 @@
+{
+    "name": "#587",
+    "dna": "A01B10C22D23E20",
+    "dnaHash": "4D5F230E8101D8868DB5E304718E55C81D115C34",
+    "date": "2021-10-13 15:29:44.024041",
+    "description": "CHANGE_THIS",
+    "image": "ipfs://CHANGE_THIS/587.png",
+    "attributes": [
+        {
+            "trait_type": "background",
+            "value": "Yellow"
+        },
+        {
+            "trait_type": "armour",
+            "value": "Light blue"
+        },
+        {
+            "trait_type": "pattern",
+            "value": "red"
+        },
+        {
+            "trait_type": "helmet",
+            "value": "White"
+        },
+        {
+            "trait_type": "cheek",
+            "value": "Pink"
+        }
+    ]
+}

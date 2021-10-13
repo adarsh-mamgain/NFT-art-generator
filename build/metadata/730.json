@@ -1,0 +1,30 @@
+{
+    "name": "#730",
+    "dna": "A11B21C02D11E15",
+    "dnaHash": "DE5F7FA134DBC34D209F7D55A6335BE36240BAD5",
+    "date": "2021-10-13 15:30:14.737024",
+    "description": "CHANGE_THIS",
+    "image": "ipfs://CHANGE_THIS/730.png",
+    "attributes": [
+        {
+            "trait_type": "background",
+            "value": "Blue"
+        },
+        {
+            "trait_type": "armour",
+            "value": "Pink"
+        },
+        {
+            "trait_type": "pattern",
+            "value": "Chocolate"
+        },
+        {
+            "trait_type": "helmet",
+            "value": "Dirt"
+        },
+        {
+            "trait_type": "cheek",
+            "value": "White"
+        }
+    ]
+}

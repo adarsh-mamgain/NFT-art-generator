@@ -1,0 +1,30 @@
+{
+    "name": "#232",
+    "dna": "A03B10C20D01E03",
+    "dnaHash": "1DDB4BF2506932D86452D598C60EC82E18425069",
+    "date": "2021-10-13 15:28:32.133653",
+    "description": "CHANGE_THIS",
+    "image": "ipfs://CHANGE_THIS/232.png",
+    "attributes": [
+        {
+            "trait_type": "background",
+            "value": "De York"
+        },
+        {
+            "trait_type": "armour",
+            "value": "Light blue"
+        },
+        {
+            "trait_type": "pattern",
+            "value": "Yellow"
+        },
+        {
+            "trait_type": "helmet",
+            "value": "Dirt"
+        },
+        {
+            "trait_type": "cheek",
+            "value": "brown"
+        }
+    ]
+}

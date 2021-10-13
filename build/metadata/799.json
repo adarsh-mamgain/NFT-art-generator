@@ -1,0 +1,30 @@
+{
+    "name": "#799",
+    "dna": "A22B06C02D15E13",
+    "dnaHash": "02D130A7A08F91B5C64BDB19074E6332D50A0940",
+    "date": "2021-10-13 15:30:29.742081",
+    "description": "CHANGE_THIS",
+    "image": "ipfs://CHANGE_THIS/799.png",
+    "attributes": [
+        {
+            "trait_type": "background",
+            "value": "Green"
+        },
+        {
+            "trait_type": "armour",
+            "value": "Cream"
+        },
+        {
+            "trait_type": "pattern",
+            "value": "Chocolate"
+        },
+        {
+            "trait_type": "helmet",
+            "value": "Brown"
+        },
+        {
+            "trait_type": "cheek",
+            "value": "Skin"
+        }
+    ]
+}

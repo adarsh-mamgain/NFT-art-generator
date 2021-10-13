@@ -1,0 +1,30 @@
+{
+    "name": "#379",
+    "dna": "A06B04C11D05E14",
+    "dnaHash": "0C730E68EE90EAA7566DF2A5425448EB151B7F20",
+    "date": "2021-10-13 15:29:01.100804",
+    "description": "CHANGE_THIS",
+    "image": "ipfs://CHANGE_THIS/379.png",
+    "attributes": [
+        {
+            "trait_type": "background",
+            "value": "white"
+        },
+        {
+            "trait_type": "armour",
+            "value": "Mustard"
+        },
+        {
+            "trait_type": "pattern",
+            "value": "Green"
+        },
+        {
+            "trait_type": "helmet",
+            "value": "green cryola"
+        },
+        {
+            "trait_type": "cheek",
+            "value": "Grey"
+        }
+    ]
+}

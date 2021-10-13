@@ -1,0 +1,30 @@
+{
+    "name": "#486",
+    "dna": "A00B13C00D10E12",
+    "dnaHash": "6E58451CE083042E4534E117446715E1379EE3B2",
+    "date": "2021-10-13 15:29:22.764791",
+    "description": "CHANGE_THIS",
+    "image": "ipfs://CHANGE_THIS/486.png",
+    "attributes": [
+        {
+            "trait_type": "background",
+            "value": "Bazaar"
+        },
+        {
+            "trait_type": "armour",
+            "value": "Light green"
+        },
+        {
+            "trait_type": "pattern",
+            "value": "Pink"
+        },
+        {
+            "trait_type": "helmet",
+            "value": "Dark pink"
+        },
+        {
+            "trait_type": "cheek",
+            "value": "Green"
+        }
+    ]
+}

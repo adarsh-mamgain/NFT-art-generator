@@ -1,0 +1,30 @@
+{
+    "name": "#970",
+    "dna": "A21B15C22D23E06",
+    "dnaHash": "E7F22B4BB89D0BFBE8080B6F3CC2F0C6082C9CA8",
+    "date": "2021-10-13 15:31:08.105626",
+    "description": "CHANGE_THIS",
+    "image": "ipfs://CHANGE_THIS/970.png",
+    "attributes": [
+        {
+            "trait_type": "background",
+            "value": "Pink"
+        },
+        {
+            "trait_type": "armour",
+            "value": "purple"
+        },
+        {
+            "trait_type": "pattern",
+            "value": "red"
+        },
+        {
+            "trait_type": "helmet",
+            "value": "White"
+        },
+        {
+            "trait_type": "cheek",
+            "value": "white"
+        }
+    ]
+}

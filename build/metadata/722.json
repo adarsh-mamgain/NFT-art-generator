@@ -1,0 +1,30 @@
+{
+    "name": "#722",
+    "dna": "A24B22C10D20E11",
+    "dnaHash": "F5DFB6EE7A8B79A0676B0584E853478AE40B8A60",
+    "date": "2021-10-13 15:30:13.014158",
+    "description": "CHANGE_THIS",
+    "image": "ipfs://CHANGE_THIS/722.png",
+    "attributes": [
+        {
+            "trait_type": "background",
+            "value": "Magerita"
+        },
+        {
+            "trait_type": "armour",
+            "value": "Violet"
+        },
+        {
+            "trait_type": "pattern",
+            "value": "blue"
+        },
+        {
+            "trait_type": "helmet",
+            "value": "pink"
+        },
+        {
+            "trait_type": "cheek",
+            "value": "Blue"
+        }
+    ]
+}

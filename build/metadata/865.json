@@ -1,0 +1,30 @@
+{
+    "name": "#865",
+    "dna": "A11B23C10D01E20",
+    "dnaHash": "4B19DC5E973AD2498DD250C95AD4237A94248626",
+    "date": "2021-10-13 15:30:44.265394",
+    "description": "CHANGE_THIS",
+    "image": "ipfs://CHANGE_THIS/865.png",
+    "attributes": [
+        {
+            "trait_type": "background",
+            "value": "Blue"
+        },
+        {
+            "trait_type": "armour",
+            "value": "Green"
+        },
+        {
+            "trait_type": "pattern",
+            "value": "blue"
+        },
+        {
+            "trait_type": "helmet",
+            "value": "Dirt"
+        },
+        {
+            "trait_type": "cheek",
+            "value": "Pink"
+        }
+    ]
+}

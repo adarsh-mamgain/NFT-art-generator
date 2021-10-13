@@ -1,0 +1,30 @@
+{
+    "name": "#798",
+    "dna": "A03B14C02D23E23",
+    "dnaHash": "BB075E74F2E5A5481F11D38002C547D1B4438CEF",
+    "date": "2021-10-13 15:30:29.518662",
+    "description": "CHANGE_THIS",
+    "image": "ipfs://CHANGE_THIS/798.png",
+    "attributes": [
+        {
+            "trait_type": "background",
+            "value": "De York"
+        },
+        {
+            "trait_type": "armour",
+            "value": "Violet"
+        },
+        {
+            "trait_type": "pattern",
+            "value": "Chocolate"
+        },
+        {
+            "trait_type": "helmet",
+            "value": "White"
+        },
+        {
+            "trait_type": "cheek",
+            "value": "Green"
+        }
+    ]
+}

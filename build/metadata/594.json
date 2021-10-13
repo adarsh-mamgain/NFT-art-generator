@@ -1,0 +1,30 @@
+{
+    "name": "#594",
+    "dna": "A05B23C02D05E15",
+    "dnaHash": "ECF1E26DA7C426EB063B60B4822F37CB0C712F91",
+    "date": "2021-10-13 15:29:45.513606",
+    "description": "CHANGE_THIS",
+    "image": "ipfs://CHANGE_THIS/594.png",
+    "attributes": [
+        {
+            "trait_type": "background",
+            "value": "Grey"
+        },
+        {
+            "trait_type": "armour",
+            "value": "Green"
+        },
+        {
+            "trait_type": "pattern",
+            "value": "Chocolate"
+        },
+        {
+            "trait_type": "helmet",
+            "value": "green cryola"
+        },
+        {
+            "trait_type": "cheek",
+            "value": "White"
+        }
+    ]
+}

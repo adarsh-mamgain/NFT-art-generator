@@ -1,0 +1,30 @@
+{
+    "name": "#279",
+    "dna": "A00B14C21D05E15",
+    "dnaHash": "AA8D9A2295F62F3E54FD2F1F7B7A3A0974733E1B",
+    "date": "2021-10-13 15:28:41.152656",
+    "description": "CHANGE_THIS",
+    "image": "ipfs://CHANGE_THIS/279.png",
+    "attributes": [
+        {
+            "trait_type": "background",
+            "value": "Bazaar"
+        },
+        {
+            "trait_type": "armour",
+            "value": "Violet"
+        },
+        {
+            "trait_type": "pattern",
+            "value": "orange"
+        },
+        {
+            "trait_type": "helmet",
+            "value": "green cryola"
+        },
+        {
+            "trait_type": "cheek",
+            "value": "White"
+        }
+    ]
+}

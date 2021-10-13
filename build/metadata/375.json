@@ -1,0 +1,30 @@
+{
+    "name": "#375",
+    "dna": "A20B20C10D14E20",
+    "dnaHash": "8B8E870B3306F3CF2DCBA4C25B8E961F9252FBBF",
+    "date": "2021-10-13 15:29:00.298479",
+    "description": "CHANGE_THIS",
+    "image": "ipfs://CHANGE_THIS/375.png",
+    "attributes": [
+        {
+            "trait_type": "background",
+            "value": "Yellow"
+        },
+        {
+            "trait_type": "armour",
+            "value": "Dark blue"
+        },
+        {
+            "trait_type": "pattern",
+            "value": "blue"
+        },
+        {
+            "trait_type": "helmet",
+            "value": "Grey"
+        },
+        {
+            "trait_type": "cheek",
+            "value": "Pink"
+        }
+    ]
+}

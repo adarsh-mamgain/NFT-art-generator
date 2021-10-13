@@ -1,0 +1,30 @@
+{
+    "name": "#880",
+    "dna": "A10B02C10D03E04",
+    "dnaHash": "5E0C9B40FFBCBD86D0DF3DD229A5895B71F45B52",
+    "date": "2021-10-13 15:30:47.655122",
+    "description": "CHANGE_THIS",
+    "image": "ipfs://CHANGE_THIS/880.png",
+    "attributes": [
+        {
+            "trait_type": "background",
+            "value": "Gray"
+        },
+        {
+            "trait_type": "armour",
+            "value": "Olive"
+        },
+        {
+            "trait_type": "pattern",
+            "value": "blue"
+        },
+        {
+            "trait_type": "helmet",
+            "value": "Blue"
+        },
+        {
+            "trait_type": "cheek",
+            "value": "Cream"
+        }
+    ]
+}
