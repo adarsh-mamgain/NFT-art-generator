@@ -1,26 +1,26 @@
 {
     "name": "#13",
-    "dna": "A13B21C11D04E22",
-    "dnaHash": "19414B866FA4D518BB58C90E73D71B637E3A84FF",
-    "date": "2021-10-12 12:37:19.322408",
+    "dna": "A21B10C00D05E22",
+    "dnaHash": "6D8BC1EE44729483820DDA83905F62571C2FF6C2",
+    "date": "2021-10-13 15:27:50.553198",
     "description": "CHANGE_THIS",
     "image": "ipfs://CHANGE_THIS/13.png",
     "attributes": [
         {
             "trait_type": "background",
-            "value": "Skin"
-        },
-        {
-            "trait_type": "armour",
             "value": "Pink"
         },
         {
+            "trait_type": "armour",
+            "value": "Light blue"
+        },
+        {
             "trait_type": "pattern",
-            "value": "Green"
+            "value": "Pink"
         },
         {
             "trait_type": "helmet",
-            "value": "Green"
+            "value": "green cryola"
         },
         {
             "trait_type": "cheek",

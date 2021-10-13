@@ -1,30 +1,30 @@
 {
     "name": "#896",
-    "dna": "A03B05C01D00E03",
-    "dnaHash": "E2A513761B377A05F52DF08EE13EB3FEEE7AD4F0",
-    "date": "2021-10-12 12:40:12.643664",
+    "dna": "A13B21C00D03E06",
+    "dnaHash": "33618D962DF8063452B7FB1F9B1EADAB580C7E8C",
+    "date": "2021-10-13 15:30:51.236733",
     "description": "CHANGE_THIS",
     "image": "ipfs://CHANGE_THIS/896.png",
     "attributes": [
         {
             "trait_type": "background",
-            "value": "De York"
+            "value": "Skin"
         },
         {
             "trait_type": "armour",
-            "value": "brown"
+            "value": "Pink"
         },
         {
             "trait_type": "pattern",
-            "value": "white"
+            "value": "Pink"
         },
         {
             "trait_type": "helmet",
-            "value": "Pale blue"
+            "value": "Blue"
         },
         {
             "trait_type": "cheek",
-            "value": "brown"
+            "value": "white"
         }
     ]
 }

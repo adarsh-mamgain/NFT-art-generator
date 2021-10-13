@@ -1,8 +1,8 @@
 {
     "name": "#984",
-    "dna": "A02B00C00D03E02",
-    "dnaHash": "8FDB081341C6357399F4B0E3510D6F9C71E3B752",
-    "date": "2021-10-12 12:40:31.083373",
+    "dna": "A11B12C00D14E02",
+    "dnaHash": "46F7A11B3C7A7CAF89FAE00A5B28CEE49F7A50B6",
+    "date": "2021-10-13 15:31:11.287513",
     "description": "CHANGE_THIS",
     "image": "ipfs://CHANGE_THIS/984.png",
     "attributes": [
@@ -20,7 +20,7 @@
         },
         {
             "trait_type": "helmet",
-            "value": "Blue"
+            "value": "Grey"
         },
         {
             "trait_type": "cheek",

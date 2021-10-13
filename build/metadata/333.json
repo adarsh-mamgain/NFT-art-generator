@@ -1,30 +1,30 @@
 {
     "name": "#333",
-    "dna": "A10B11C11D12E23",
-    "dnaHash": "79957C5F1B3379461E81D324828180BBCA99DAED",
-    "date": "2021-10-12 12:38:19.385126",
+    "dna": "A24B22C21D05E24",
+    "dnaHash": "F90CA5F99CF1B4BF6D4C4454A43923954F7B6FBE",
+    "date": "2021-10-13 15:28:51.946232",
     "description": "CHANGE_THIS",
     "image": "ipfs://CHANGE_THIS/333.png",
     "attributes": [
         {
             "trait_type": "background",
-            "value": "Gray"
+            "value": "Magerita"
         },
         {
             "trait_type": "armour",
-            "value": "Pink"
+            "value": "Violet"
         },
         {
             "trait_type": "pattern",
-            "value": "Green"
+            "value": "orange"
         },
         {
             "trait_type": "helmet",
-            "value": "Pink"
+            "value": "green cryola"
         },
         {
             "trait_type": "cheek",
-            "value": "Green"
+            "value": "Red"
         }
     ]
 }

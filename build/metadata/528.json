@@ -1,22 +1,22 @@
 {
     "name": "#528",
-    "dna": "A00B12C22D11E11",
-    "dnaHash": "EA4CFE9D9A4DF63F34C900A8FA83FABFC5214B4E",
-    "date": "2021-10-12 12:38:57.629810",
+    "dna": "A03B01C00D01E11",
+    "dnaHash": "19D4E4C62FF3C94C4EC6B77EDA1510E1712008DA",
+    "date": "2021-10-13 15:29:31.519039",
     "description": "CHANGE_THIS",
     "image": "ipfs://CHANGE_THIS/528.png",
     "attributes": [
         {
             "trait_type": "background",
-            "value": "Bazaar"
+            "value": "De York"
         },
         {
             "trait_type": "armour",
-            "value": "Blue"
+            "value": "Violet"
         },
         {
             "trait_type": "pattern",
-            "value": "red"
+            "value": "Pink"
         },
         {
             "trait_type": "helmet",

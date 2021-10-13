@@ -1,30 +1,30 @@
 {
     "name": "#27",
-    "dna": "A24B15C20D13E05",
-    "dnaHash": "AC0B73AD0D03DAADA7205F71FB7D7903F3880F0B",
-    "date": "2021-10-12 12:37:21.918332",
+    "dna": "A04B22C21D12E11",
+    "dnaHash": "5BDFF510BD150810063DB3692B36EEB177D7A4F7",
+    "date": "2021-10-13 15:27:53.225113",
     "description": "CHANGE_THIS",
     "image": "ipfs://CHANGE_THIS/27.png",
     "attributes": [
         {
             "trait_type": "background",
-            "value": "Magerita"
+            "value": "Olive"
         },
         {
             "trait_type": "armour",
-            "value": "purple"
+            "value": "Violet"
         },
         {
             "trait_type": "pattern",
-            "value": "Yellow"
+            "value": "orange"
         },
         {
             "trait_type": "helmet",
-            "value": "blue"
+            "value": "Pink"
         },
         {
             "trait_type": "cheek",
-            "value": "Space grey"
+            "value": "Blue"
         }
     ]
 }

@@ -1,8 +1,8 @@
 {
     "name": "#480",
-    "dna": "A10B01C00D11E01",
-    "dnaHash": "8FA8A5DADE950D27336C568AB4BD25F69482ECB2",
-    "date": "2021-10-12 12:38:48.088771",
+    "dna": "A10B04C01D00E10",
+    "dnaHash": "12BE4A2129C841C2C5E02D74C4744DAB65C72005",
+    "date": "2021-10-13 15:29:21.513589",
     "description": "CHANGE_THIS",
     "image": "ipfs://CHANGE_THIS/480.png",
     "attributes": [
@@ -12,19 +12,19 @@
         },
         {
             "trait_type": "armour",
-            "value": "Violet"
+            "value": "Mustard"
         },
         {
             "trait_type": "pattern",
-            "value": "Pink"
+            "value": "white"
         },
         {
             "trait_type": "helmet",
-            "value": "Dirt"
+            "value": "Pale blue"
         },
         {
             "trait_type": "cheek",
-            "value": "Skin"
+            "value": "Pink"
         }
     ]
 }

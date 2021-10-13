@@ -1,18 +1,18 @@
 {
     "name": "#428",
-    "dna": "A06B00C02D11E01",
-    "dnaHash": "01EACF6DDFEA6F3FB59BB4ECCEC003197D617B24",
-    "date": "2021-10-12 12:38:37.876921",
+    "dna": "A12B21C02D11E00",
+    "dnaHash": "43E5DB9AECEC1A7526D4FD33A846EF0598EBC727",
+    "date": "2021-10-13 15:29:10.784104",
     "description": "CHANGE_THIS",
     "image": "ipfs://CHANGE_THIS/428.png",
     "attributes": [
         {
             "trait_type": "background",
-            "value": "white"
+            "value": "Violet"
         },
         {
             "trait_type": "armour",
-            "value": "Blue"
+            "value": "Pink"
         },
         {
             "trait_type": "pattern",
@@ -24,7 +24,7 @@
         },
         {
             "trait_type": "cheek",
-            "value": "Skin"
+            "value": "Dirt"
         }
     ]
 }

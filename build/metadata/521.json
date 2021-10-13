@@ -1,30 +1,30 @@
 {
     "name": "#521",
-    "dna": "A02B15C10D01E02",
-    "dnaHash": "E6D4E3726C21BE534710C7594CE1AA18475427D8",
-    "date": "2021-10-12 12:38:56.248525",
+    "dna": "A14B05C11D13E05",
+    "dnaHash": "3B77EA4BC2605DB174C4E5E3EBFBC81AC958EEF2",
+    "date": "2021-10-13 15:29:30.062064",
     "description": "CHANGE_THIS",
     "image": "ipfs://CHANGE_THIS/521.png",
     "attributes": [
         {
             "trait_type": "background",
-            "value": "Blue"
+            "value": "Brown"
         },
         {
             "trait_type": "armour",
-            "value": "purple"
+            "value": "brown"
         },
         {
             "trait_type": "pattern",
-            "value": "blue"
+            "value": "Green"
         },
         {
             "trait_type": "helmet",
-            "value": "Dirt"
+            "value": "blue"
         },
         {
             "trait_type": "cheek",
-            "value": "grey"
+            "value": "Space grey"
         }
     ]
 }

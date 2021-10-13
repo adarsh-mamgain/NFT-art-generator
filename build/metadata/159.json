@@ -1,18 +1,18 @@
 {
     "name": "#159",
-    "dna": "A03B00C02D04E02",
-    "dnaHash": "5A71A7AE840B2AF725D3053D2F5E7A7419A9F5B8",
-    "date": "2021-10-12 12:37:46.308887",
+    "dna": "A10B20C02D21E00",
+    "dnaHash": "D568A1727A59AFCBDFF87E8D27369C08C4C7F34A",
+    "date": "2021-10-13 15:28:18.212456",
     "description": "CHANGE_THIS",
     "image": "ipfs://CHANGE_THIS/159.png",
     "attributes": [
         {
             "trait_type": "background",
-            "value": "De York"
+            "value": "Gray"
         },
         {
             "trait_type": "armour",
-            "value": "Blue"
+            "value": "Dark blue"
         },
         {
             "trait_type": "pattern",
@@ -20,11 +20,11 @@
         },
         {
             "trait_type": "helmet",
-            "value": "Green"
+            "value": "Blue"
         },
         {
             "trait_type": "cheek",
-            "value": "grey"
+            "value": "Dirt"
         }
     ]
 }

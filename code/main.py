@@ -12,37 +12,15 @@ from PIL import Image
 import layers
 import config
 
-dnaList = []
-
-
-def get_rarity():
-    """Generates the NFTs rarity"""
-    total_sum = 0
-    rarity_percent = []
-    rarity_percent = list(map(int, input("Enter rarity percent ↓↓↓\n(Original, Rare, Super rare): ").split()))
-    if not rarity_percent:
-        print("No input provided, default rarity percent is used Original: 50 Rare: 30 Super rare: 20")
-        for i in config.rarity_weights:
-            rarity_percent.append(config.rarity_weights[i]["count"])
-    for i in rarity_percent:
-        total_sum += i
-    if (len(rarity_percent) == len(list(dict(config.rarity_weights)))and total_sum == 100):
-        for i, j in zip(config.rarity_weights, rarity_percent):
-            config.rarity_weights[i]["count"] = int(layers.editionSize * j / 100)
-        if layers.editionSize % 2 != 0:
-            config.rarity_weights["original"]["count"] += 1
-        return config.rarity_weights
-    else:
-        print("RERUN")
-        return get_rarity()
+dna_list = []
 
 
 def is_dna_unique(_dna_id):
     """Checks if the DNA is unique"""
     dna = "".join(map(str, _dna_id))
-    if dna in dnaList:
+    if dna in dna_list:
         return False
-    dnaList.append(dna)
+    dna_list.append(dna)
     return True
 
 
@@ -113,28 +91,21 @@ def save_metadata(_edition_count, _dna, images):
         file_data = json.load(file)
         file_data.append(data)
         file.seek(0)
-        json.dump(file_data, file)
+        json.dump(file_data, file, indent=4)
     return data
 
 
 # ! CREATE SMART CONTRACTS
 def main():
     """The main function of the program for creating the required NFTs"""
-    get_rarity()
     edition_count = 1
     print("Edition size: ", layers.editionSize)
     print("Creating your NFTs ...")
     clear_data()
     while edition_count <= layers.editionSize:
-        while True:
-            rare = random.choice(list(config.rarity_weights))
-            if config.rarity_weights[rare]["count"] > 0:
-                break
-
-        element_list, layer_list, dna_id = create_dna(config.rarity_weights[rare]["list"])
+        element_list, layer_list, dna_id = create_dna(config.rarity_weights)
         dna = "".join(map(str, dna_id))
         if is_dna_unique(dna_id):
-            config.rarity_weights[rare]["count"] -= 1
             images = []
             images_path = []
             for selected_element, selected_layer in zip(element_list, layer_list):

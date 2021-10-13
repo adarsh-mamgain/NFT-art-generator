@@ -1,18 +1,18 @@
 {
     "name": "#458",
-    "dna": "A03B01C00D02E00",
-    "dnaHash": "AF77C87E5F8D2EA585FC2CCE3F7906ACACE5A4B6",
-    "date": "2021-10-12 12:38:43.765119",
+    "dna": "A24B12C00D14E24",
+    "dnaHash": "FF74BEAAB612F4581DD197C09F53489D2B303FFC",
+    "date": "2021-10-13 15:29:16.961855",
     "description": "CHANGE_THIS",
     "image": "ipfs://CHANGE_THIS/458.png",
     "attributes": [
         {
             "trait_type": "background",
-            "value": "De York"
+            "value": "Magerita"
         },
         {
             "trait_type": "armour",
-            "value": "Violet"
+            "value": "Blue"
         },
         {
             "trait_type": "pattern",
@@ -20,11 +20,11 @@
         },
         {
             "trait_type": "helmet",
-            "value": "Yellow"
+            "value": "Grey"
         },
         {
             "trait_type": "cheek",
-            "value": "Dirt"
+            "value": "Red"
         }
     ]
 }

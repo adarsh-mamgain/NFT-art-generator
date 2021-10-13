@@ -12,20 +12,4 @@ MetaData - attributes for the NFTs
 DESCRIPTION = "CHANGE_THIS"
 BASE_IMAGE_URI = "ipfs://CHANGE_THIS"
 
-rarity_weights = {
-    "original": {
-        "rarity_id": 0,
-        "count": 50,
-        "list": ["original"]
-    },
-    "rare": {
-        "rarity_id": 1,
-        "count": 30,
-        "list": ["original","rare"]
-    },
-    "super_rare": {
-        "rarity_id": 2,
-        "count": 20,
-        "list": ["original", "rare", "super_rare"],
-    },
-}
+rarity_weights = ["original", "rare", "super_rare"]

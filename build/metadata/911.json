@@ -1,18 +1,18 @@
 {
     "name": "#911",
-    "dna": "A04B06C00D03E04",
-    "dnaHash": "B967AFFA33DA346F993FE1B435D58419483DEBF3",
-    "date": "2021-10-12 12:40:15.773231",
+    "dna": "A02B03C00D21E22",
+    "dnaHash": "099D6364B665773F53016224CA9EAF5569A90B34",
+    "date": "2021-10-13 15:30:54.658584",
     "description": "CHANGE_THIS",
     "image": "ipfs://CHANGE_THIS/911.png",
     "attributes": [
         {
             "trait_type": "background",
-            "value": "Olive"
+            "value": "Blue"
         },
         {
             "trait_type": "armour",
-            "value": "Cream"
+            "value": "Green"
         },
         {
             "trait_type": "pattern",
@@ -24,7 +24,7 @@
         },
         {
             "trait_type": "cheek",
-            "value": "Cream"
+            "value": "orange"
         }
     ]
 }

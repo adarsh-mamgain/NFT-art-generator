@@ -1,18 +1,18 @@
 {
     "name": "#798",
-    "dna": "A00B05C02D05E02",
-    "dnaHash": "C2B52B68F1F5CB537097B5254692EC540D435617",
-    "date": "2021-10-12 12:39:52.288612",
+    "dna": "A03B14C02D23E23",
+    "dnaHash": "BB075E74F2E5A5481F11D38002C547D1B4438CEF",
+    "date": "2021-10-13 15:30:29.518662",
     "description": "CHANGE_THIS",
     "image": "ipfs://CHANGE_THIS/798.png",
     "attributes": [
         {
             "trait_type": "background",
-            "value": "Bazaar"
+            "value": "De York"
         },
         {
             "trait_type": "armour",
-            "value": "brown"
+            "value": "Violet"
         },
         {
             "trait_type": "pattern",
@@ -20,11 +20,11 @@
         },
         {
             "trait_type": "helmet",
-            "value": "green cryola"
+            "value": "White"
         },
         {
             "trait_type": "cheek",
-            "value": "grey"
+            "value": "Green"
         }
     ]
 }

@@ -61,27 +61,7 @@ Arrange all the .png files inside respective folder types and rename the file. I
 
 All the required configurations are stored and accessed from [code/config.py](https://github.com/adarsh-mamgain/NFT-art-generator/tree/develop/code/config.py) 
 
-The count is the rarity percent for **original, rare** and **super_rare** out of your total edition_size (eg: 10000). You may change the count values for each rarity totaling perfect 100.
-
-```js
-rarity_weights = {
-    "original": {
-        "rarity_id": 0,
-        "count": 50,
-        "list": ["original"]
-    },
-    "rare": {
-        "rarity_id": 1,
-        "count": 30,
-        "list": ["original","rare"]
-    },
-    "super_rare": {
-        "rarity_id": 2,
-        "count": 20,
-        "list": ["original", "rare", "super_rare"],
-    },
-}
-```
+The rarity_percent for **original**, **rare** and **super_rare** out of your total edition_size (eg: 10000).
 
 **NOTE: You can modify the variable values in [code/config.py](https://github.com/adarsh-mamgain/NFT-art-generator/tree/develop/code/config.py)  file to get the required ouput.**
 

@@ -1,30 +1,30 @@
 {
     "name": "#443",
-    "dna": "A01B05C00D01E02",
-    "dnaHash": "AE163978BC99DE0A06D5DFEAA2013491958DA112",
-    "date": "2021-10-12 12:38:40.814926",
+    "dna": "A13B15C11D24E21",
+    "dnaHash": "76F4441F745CBA428871DDE31E6B9A4F5A2A5138",
+    "date": "2021-10-13 15:29:13.872179",
     "description": "CHANGE_THIS",
     "image": "ipfs://CHANGE_THIS/443.png",
     "attributes": [
         {
             "trait_type": "background",
-            "value": "Yellow"
+            "value": "Skin"
         },
         {
             "trait_type": "armour",
-            "value": "brown"
+            "value": "purple"
         },
         {
             "trait_type": "pattern",
-            "value": "Pink"
+            "value": "Green"
         },
         {
             "trait_type": "helmet",
-            "value": "Dirt"
+            "value": "Red"
         },
         {
             "trait_type": "cheek",
-            "value": "grey"
+            "value": "blue"
         }
     ]
 }
