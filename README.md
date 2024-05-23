@@ -139,10 +139,7 @@ The new attributes `DESCRIPTION`, `BASE_IMAGE_URI`  must be changed inside the [
 ## RUNNING THE PROGRAM 🏃‍♀️🏃🏃‍♂️
 
 ```sh
-cd NFT-art-generator
-
 python3 code/main.py
-  Enter the edition size: #enter your NFT size
 ```
 
 ---
