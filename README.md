@@ -6,32 +6,32 @@ This is a python art generative code, which uses 'Pillow' python module to merge
 
 - Clone this repository into your working directory.
 ```sh
-$ git clone https://github.com/adarsh-mamgain/NFT-art-generator.git
+git clone https://github.com/adarsh-mamgain/NFT-art-generator.git
 
-$ cd NFT-art-generator
+cd NFT-art-generator
 ```
 
 - Install and create a virtualenv to install python modules
 ```sh
-$ pip3 install virtualenv
+pip3 install virtualenv
 
-$ virtualenv venv
+virtualenv venv
 ```
 
 - Start using the virtual environment.
 
     1. On Windows
         ```sh
-        $ venv\scripts\activate
+        venv\scripts\activate
         ```
     2. On Linux and MacOS
         ```sh
-        $ source venv/bin/activate
+        source venv/bin/activate
         ```
 
 - Run the following command to install [`Pillow`](https://github.com/python-pillow/Pillow/) and other dependencies
 ```sh 
-$ pip3 install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ---
@@ -139,9 +139,9 @@ The new attributes `DESCRIPTION`, `BASE_IMAGE_URI`  must be changed inside the [
 ## RUNNING THE PROGRAM 🏃‍♀️🏃🏃‍♂️
 
 ```sh
-$ cd NFT-art-generator
+cd NFT-art-generator
 
-$ python3 code/main.py
+python3 code/main.py
   Enter the edition size: #enter your NFT size
 ```
 
